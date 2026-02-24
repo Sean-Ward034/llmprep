@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Build/distribution
+build/
+dist/
+*.egg-info/
+
+# Local outputs
+ragpack/
+.llmprep_cache/
+*.log
+
+# Editors/OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

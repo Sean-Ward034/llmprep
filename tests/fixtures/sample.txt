@@ -1,0 +1,8 @@
+PROJECT PLAN:
+
+Need to finalize migration checklist.
+
+- Update docs for release
+1. Add integration templates
+
+Owner: Platform Team

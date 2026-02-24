@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "llmprep": {
+      "command": "llmprep",
+      "args": ["mcp"]
+    }
+  }
+}

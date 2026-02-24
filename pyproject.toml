@@ -1,0 +1,46 @@
+[build-system]
+requires = ["hatchling>=1.25.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "llmprep"
+version = "0.1.0"
+description = "Deterministic local-first ingestion and artifact generation for LLM workflows."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Apache-2.0" }
+authors = [
+  { name = "LLM Prep Maintainers" }
+]
+keywords = ["llm", "ingestion", "cli", "mcp", "deterministic"]
+dependencies = [
+  "beautifulsoup4>=4.12.0",
+  "fastapi>=0.115.0",
+  "lxml>=5.2.0",
+  "mcp>=1.6.0",
+  "openpyxl>=3.1.0",
+  "pdfplumber>=0.11.0",
+  "pydantic>=2.9.0",
+  "pyyaml>=6.0.0",
+  "rich>=13.7.0",
+  "typer>=0.15.0",
+  "uvicorn>=0.30.0",
+  "xxhash>=3.4.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "httpx>=0.28.0",
+  "pytest>=8.3.0",
+  "pytest-cov>=6.0.0",
+]
+
+[project.scripts]
+llmprep = "llm_prep.cli:app"
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/llm_prep"]

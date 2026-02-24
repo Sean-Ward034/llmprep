@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "llmprep": {
+      "command": "llmprep",
+      "args": ["mcp"]
+    }
+  },
+  "fallback": {
+    "command": "python",
+    "args": [
+      "scripts/codebuff_cli_fallback.py",
+      "--path",
+      "./inputs",
+      "--out",
+      "./out",
+      "--print",
+      "--json"
+    ]
+  }
+}

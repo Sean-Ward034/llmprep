@@ -1,0 +1,349 @@
+# Project: LLM Prep (Deterministic Ingestion + Cache for “LLM-ready” Artifacts)
+
+## Objective
+Build a local-first CLI tool that ingests common client artifacts (PDF, XLSX, CSV, email/HTML/text) and produces deterministic, inspectable “LLM-ready” outputs (chunks, tables, entities, validation report) with strong provenance + caching. This reduces agent runtime by avoiding repeated ad-hoc parsing, exploration, and re-ingestion.
+
+Primary use case: speed up tasks like “read spreadsheet/PDF/email → extract structured records + rules → patch codebase” by producing canonical JSON artifacts the agent can consume quickly.
+
+## Non-goals (MVP)
+- No hosted service
+- No vector DB integrations
+- No authentication/tenancy
+- No heavy UI (optional minimal HTML report only)
+- No OCR for scanned PDFs in MVP (flag as unsupported; add later)
+
+---
+
+## Tech Choices (Cursor-friendly)
+- Language: Python 3.11+
+- Packaging: `uv` or `poetry` (choose `uv` if available; otherwise `pip` + `venv`)
+- CLI: `typer`
+- Data validation: `pydantic`
+- Output: JSONL + JSON
+- PDF parsing (text-first): `pypdf` (fast/simple) OR `pdfplumber` (better layout). Prefer `pdfplumber` if performance acceptable.
+- XLSX parsing: `openpyxl`
+- CSV parsing: builtin `csv` + optional `pandas` (avoid heavy dependency unless needed)
+- HTML/email parsing: `beautifulsoup4`, `lxml`
+- Hashing/caching: `xxhash` (fast) or `hashlib.sha256`
+
+---
+
+## Repo Layout
+Create a new repo or folder `llm-prep/`:
+
+llm-prep/
+  pyproject.toml
+  README.md
+  src/llm_prep/
+    __init__.py
+    cli.py
+    config.py
+    cache.py
+    manifest.py
+    models.py
+    normalize.py
+    chunking.py
+    ingest/
+      __init__.py
+      pdf_ingest.py
+      xlsx_ingest.py
+      csv_ingest.py
+      html_ingest.py
+      text_ingest.py
+    extract/
+      __init__.py
+      tables.py
+      entities.py
+      task_spec.py
+    report.py
+  tests/
+    test_hashing.py
+    test_chunking.py
+    fixtures/
+      sample.csv
+      sample.xlsx
+      sample.html
+      sample.pdf (optional small)
+  .gitignore
+
+---
+
+## CLI UX (MVP)
+Command group: `llmprep`
+
+### 1) Ingest
+`llmprep ingest <path> --out <output_dir> [--force] [--max-bytes N] [--include-globs "..."] [--exclude-globs "..."]`
+
+- If `<path>` is a file: ingest it.
+- If directory: ingest all supported files recursively (respect include/exclude).
+- Output a single “artifact pack” directory per run:
+  `<output_dir>/ragpack/`
+    manifest.json
+    doc_chunks.jsonl
+    tables.jsonl
+    entities.json
+    task_spec.json
+    validation_report.json
+    sources/
+      (optional) normalized text snapshots for debugging
+
+### 2) Diff (incremental)
+`llmprep diff --old <ragpack_old> --new <ragpack_new> --out <diff_dir>`
+
+Produces:
+- diff_summary.json (added/removed/changed records by stable IDs)
+- changed_chunks.jsonl
+- changed_tables.jsonl
+
+### 3) Validate (quick checks only)
+`llmprep validate <ragpack_dir>`
+
+Returns exit code non-zero if:
+- parse errors exist
+- unknown tiers/colors exist (if xlsx colors used)
+- duplicate stable IDs
+
+---
+
+## Output Contracts (Important)
+All outputs MUST be deterministic given identical inputs + config.
+
+### manifest.json
+- tool_version
+- created_at
+- config (normalized)
+- sources[]:
+  - path
+  - type: pdf|xlsx|csv|html|text
+  - size_bytes
+  - sha256
+  - mtime
+  - parser: {name, version}
+- stats: counts for chunks/tables/entities/tasks
+- cache: {enabled, cache_dir, hits, misses}
+
+### doc_chunks.jsonl
+Each line: a JSON object
+- chunk_id (stable, deterministic)
+- source_id (stable per file hash)
+- source_path
+- doc_type
+- text (cleaned)
+- metadata:
+  - page (pdf)
+  - section_heading (pdf/html/text if detectable)
+  - sheet, row_start, row_end (if chunk derived from xlsx text-like cells)
+  - email_subject (if available)
+- provenance:
+  - locator (e.g., "pdf:p=12", "xlsx:Sheet1!A87:E87", "html:table#2 row 10")
+- checksum (hash of normalized text + key metadata)
+
+Chunking rules (MVP):
+- Target ~800–1200 characters per chunk for text
+- Prefer splitting on headings/blank lines
+- Never split table rows across text chunks; tables go to tables.jsonl
+
+### tables.jsonl
+Each line:
+- table_id (stable)
+- source_id
+- source_path
+- table_kind: xlsx_sheet_table|html_table|csv_table
+- schema:
+  - columns: [{name, index, inferred_type}]
+- rows: store as row blocks to avoid huge files:
+  - row_start, row_end
+  - data: [[...], [...], ...]   (bounded; e.g., max 200 rows per table block)
+- metadata:
+  - sheet_name (xlsx)
+  - range (xlsx range like A1:F120 when known)
+  - html_table_index
+- provenance locator string
+- checksum
+
+### entities.json
+Simple extracted metadata:
+- files: list of source summaries
+- headings: list of detected headings
+- key_values: extracted “Label: Value” pairs if obvious
+- warnings: list of warnings
+
+### task_spec.json (MVP: heuristics)
+Goal: extract “requests/demands/ideas” into structured items when present.
+- tasks: [{id, title, description, priority_hint, source_locator, confidence}]
+Heuristics:
+- bullet lines starting with -, *, •
+- numbered lists
+- sentences starting with “Please”, “Need to”, “We should”, “I want”, “Can you”
+- email-style “Action items:” sections
+
+### validation_report.json
+- errors[] (parse failures, unsupported formats)
+- warnings[] (large files truncated, unknown colors, merged-cell ambiguities)
+- metrics (counts, total_bytes, time_ms)
+- timing breakdown by stage
+
+---
+
+## Caching Strategy (Core)
+Cache directory default: `<output_dir>/.llmprep_cache/`
+
+Cache keys:
+- file_sha256 + parser_version + config_hash
+Cache artifacts:
+- normalized_text.json
+- extracted_tables.json
+- chunked_output.jsonl
+
+On ingest:
+- If cache hit: reuse parse/chunk results
+- If miss: compute and store
+
+---
+
+## Ingestion Details by Type
+
+### PDF (text-first)
+- Extract text per page
+- Detect headings loosely (lines in ALL CAPS or ending with ":" and short)
+- Build doc_chunks with page provenance
+- If pdf has zero text (scanned): record warning “OCR not supported in MVP”
+
+### XLSX
+- Read workbook with openpyxl `data_only=True`
+- For each sheet:
+  - Identify “table regions”:
+    - simplest: treat each sheet as one table if it has headers in first non-empty row
+    - store as row blocks of up to 200 rows
+  - Also produce text-like chunks for “notes” cells outside tables if desired (optional)
+- Capture fill colors if present:
+  - store cell fill fgColor info in provenance metadata
+  - do NOT interpret tiers in the generic tool; just expose colors + counts in validation report
+  - (Later: add optional user-provided mapping file to map colors → tiers)
+
+### CSV
+- Infer delimiter using `csv.Sniffer`
+- Infer types by sampling first N rows (int/float/bool/date/string)
+- Emit as tables.jsonl with schema + row blocks
+
+### HTML / Email
+- Parse HTML with BeautifulSoup
+- Extract:
+  - visible text as doc_chunks
+  - all `<table>` elements as tables.jsonl
+- Preserve table structure
+- If input is `.eml` not supported in MVP; accept pasted HTML/text or `.html`
+
+### Text
+- Read UTF-8 with fallback
+- Split into paragraphs/headings
+- Produce doc_chunks
+
+---
+
+## Minimal Config
+Support optional config file:
+`llmprep.toml` or `llmprep.yaml`
+
+Config options:
+- chunk_target_chars
+- max_file_bytes
+- csv_sample_rows
+- xlsx_max_rows_per_block
+- include_globs / exclude_globs
+- enable_task_spec (true/false)
+
+---
+
+## Implementation Steps (Do in order)
+
+### Step 0: Bootstrap
+- Create project with `pyproject.toml`
+- Add dependencies: typer, pydantic, rich, openpyxl, beautifulsoup4, lxml, pdfplumber (or pypdf), xxhash
+- Implement `llmprep --help`
+
+### Step 1: Core models + manifest
+- Pydantic models for Source, Chunk, TableBlock, Report
+- Hash utilities (sha256 file hash)
+- Config hashing
+
+### Step 2: Cache
+- Implement cache get/put for each stage
+- Track hits/misses in manifest
+
+### Step 3: Ingest: CSV + Text first (easy)
+- Implement csv_ingest → TableBlocks
+- Implement text_ingest → Chunks
+- Write outputs in correct JSONL/JSON format
+
+### Step 4: Ingest: XLSX
+- Implement xlsx_ingest → TableBlocks with sheet provenance
+- Add fill color capture in metadata (cell-level only when computing row blocks; keep minimal)
+- Add validation counts: fill colors histogram per sheet
+
+### Step 5: Ingest: HTML
+- Extract tables + text; keep provenance locators like "html:table#2 row 10"
+- Add task_spec heuristics over extracted text
+
+### Step 6: Ingest: PDF
+- Parse pages; chunk by pages/paragraphs
+- Add page provenance
+
+### Step 7: Diff + Validate commands
+- Diff by stable IDs + checksums
+- Validate duplicates, unknown/empty chunks, parse errors
+
+### Step 8: Tests
+- Unit tests for hashing determinism
+- Chunking stability tests
+- CSV delimiter inference test
+- XLSX table extraction basic test
+- HTML table extraction test
+
+---
+
+## Deterministic IDs (Must Implement)
+- source_id = sha256(file bytes)
+- chunk_id = sha256(source_id + locator + normalized_text_checksum)
+- table_id = sha256(source_id + locator + schema_signature)
+
+Normalization: strip repeated whitespace, normalize newlines to \n, remove trailing spaces.
+
+---
+
+## Acceptance Criteria
+- Running `llmprep ingest` twice on same inputs produces identical artifacts byte-for-byte (except created_at timestamps; for determinism allow `--deterministic-time` to fix time or exclude from compare).
+- XLSX output preserves sheet name + row ranges and captures fill colors.
+- HTML tables preserved with correct row/col counts.
+- `validation_report.json` includes stage timings and any warnings.
+- Ingesting a directory of mixed files produces one coherent ragpack.
+
+---
+
+## README (Required)
+Include:
+- Installation
+- CLI examples
+- Output file explanations
+- How caching works
+- Privacy (local-first; no uploads)
+- Known limitations
+
+---
+
+## Deliverables
+1) Working CLI with commands: ingest, diff, validate
+2) Deterministic ragpack outputs
+3) Basic tests + fixtures
+4) README
+
+---
+
+## Notes for Codex/Cursor Execution
+- Prefer small incremental commits.
+- Keep functions small and typed.
+- Use `rich` for CLI progress + timing display.
+- Ensure Windows paths supported.
+- Avoid heavy OCR/ML; MVP is deterministic parsing + caching.
+
+Build it now.

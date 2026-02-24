@@ -1,0 +1,22 @@
+schema_version = "1.0.0"
+tool_version = "0.1.0"
+chunk_target_chars = 1000
+max_file_bytes = 10485760
+csv_sample_rows = 50
+xlsx_max_rows_per_block = 200
+include_globs = ["**/*"]
+exclude_globs = []
+enable_task_spec = true
+
+[api]
+default_output_mode = "file"
+inline_max_bytes = 10485760
+timeout_seconds = 600
+host = "127.0.0.1"
+port = 8741
+
+[features]
+pro_enabled = false
+
+[licensing]
+provider = "noop"
