@@ -1,0 +1,301 @@
+SKU,Product_Name,Category,Subcategory,Unit_Cost,Retail_Price,Stock_Qty,Reorder_Point,Supplier,Warehouse,Last_Restock,Weight_kg,Dimensions_cm
+SKU-010000,Implementation Basic XL,Services,Implementation,1433.38,2182.56,3057,210,EuroTech GmbH,WH-SFO,2025-04-26,0.29,40x35x8
+SKU-010001,Training Pro S,Services,Training,426.49,575.07,3733,69,EuroTech GmbH,WH-AUS,2025-04-06,15.11,48x29x18
+SKU-010002,Plugins Pro M,Software,Plugins,465.42,738.85,4618,97,EuroTech GmbH,WH-SIN,2025-03-24,17.19,23x30x28
+SKU-010003,Accessories Max XL,Electronics,Accessories,1994.75,4380.6,2718,321,Atlas Manufacturing,WH-NYC,2025-02-03,15.62,47x19x8
+SKU-010004,Tablets Basic S,Electronics,Tablets,601.71,879.35,4956,163,Pacific Electronics,WH-SIN,2025-03-14,6.37,27x5x11
+SKU-010005,Peripherals Ultra M,Hardware,Peripherals,345.04,463.1,2533,470,TechSupply Co,WH-TKY,2025-02-03,10.68,47x29x26
+SKU-010006,Servers Elite L,Hardware,Servers,978.95,1361.07,1808,310,TechSupply Co,WH-LON,2025-04-09,19.97,12x13x25
+SKU-010007,Accessories Basic XL,Electronics,Accessories,1609.11,3932.92,175,23,Pacific Electronics,WH-SIN,2025-03-14,14.88,5x13x25
+SKU-010008,Accessories Pro L,Electronics,Accessories,113.74,318.06,4112,424,GlobalParts Ltd,WH-LON,2025-02-02,11.99,20x6x26
+SKU-010009,Implementation Plus L,Services,Implementation,300.31,584.01,4903,486,EuroTech GmbH,WH-NYC,2025-03-20,7.95,60x38x24
+SKU-010010,Consulting Pro XL,Services,Consulting,187.76,347.74,293,200,Atlas Manufacturing,WH-SIN,2025-03-25,6.85,9x23x24
+SKU-010011,Support Elite X,Services,Support,144.38,407.74,4788,83,EuroTech GmbH,WH-SFO,2025-06-20,23.88,25x14x14
+SKU-010012,Accessories Ultra XL,Electronics,Accessories,253.95,511.0,492,230,NorthAm Distributing,WH-NYC,2025-06-23,18.69,35x13x30
+SKU-010013,Smartphones Basic L,Electronics,Smartphones,1545.84,2680.43,2580,50,GlobalParts Ltd,WH-NYC,2025-02-22,8.22,10x31x8
+SKU-010014,Servers Ultra S,Hardware,Servers,463.96,1268.13,2487,462,EuroTech GmbH,WH-NYC,2025-03-21,23.01,41x12x23
+SKU-010015,Networking Ultra S,Hardware,Networking,1905.81,4562.42,4934,13,AsiaComponents,WH-SIN,2025-01-18,12.54,29x15x11
+SKU-010016,Tablets Pro X,Electronics,Tablets,1845.76,3585.45,227,232,Pacific Electronics,WH-AUS,2025-01-19,8.75,37x9x27
+SKU-010017,Consulting Max XL,Services,Consulting,1063.11,1748.39,1216,230,AsiaComponents,WH-NYC,2025-04-13,19.36,24x27x2
+SKU-010018,Audio Pro S,Electronics,Audio,152.73,323.07,2974,427,EuroTech GmbH,WH-LON,2025-06-07,9.68,9x16x12
+SKU-010019,Tablets Pro XL,Electronics,Tablets,340.46,824.96,3171,318,Pacific Electronics,WH-SFO,2025-02-10,1.68,57x15x4
+SKU-010020,SaaS Elite XL,Software,SaaS,1590.61,4204.47,1967,242,GlobalParts Ltd,WH-SFO,2025-01-22,9.72,55x20x22
+SKU-010021,Plugins Plus S,Software,Plugins,1208.13,3551.07,2938,249,Pacific Electronics,WH-TKY,2025-03-14,23.75,52x23x22
+SKU-010022,Smartphones Elite X,Electronics,Smartphones,1104.69,3046.21,3030,255,GlobalParts Ltd,WH-LON,2025-05-09,18.63,17x36x14
+SKU-010023,Storage Pro XL,Hardware,Storage,1391.35,2266.03,1938,272,Atlas Manufacturing,WH-LON,2025-06-11,9.09,50x13x28
+SKU-010024,Storage Elite S,Hardware,Storage,587.8,1629.44,2094,270,AsiaComponents,WH-SFO,2025-03-03,22.33,53x30x25
+SKU-010025,On-Premise Pro S,Software,On-Premise,708.73,1301.23,3532,118,Pacific Electronics,WH-NYC,2025-06-07,0.37,32x11x27
+SKU-010026,SaaS Plus S,Software,SaaS,165.02,402.79,1999,492,GlobalParts Ltd,WH-AUS,2025-04-16,17.95,44x8x18
+SKU-010027,SaaS Ultra S,Software,SaaS,1891.05,4841.4,3034,388,GlobalParts Ltd,WH-SFO,2025-01-03,2.69,42x6x20
+SKU-010028,SaaS Elite S,Software,SaaS,1019.67,2339.2,1747,33,NorthAm Distributing,WH-AUS,2025-01-07,12.96,46x10x22
+SKU-010029,Consulting Elite XL,Services,Consulting,331.83,915.62,4179,298,EuroTech GmbH,WH-AUS,2025-06-24,12.71,12x39x5
+SKU-010030,Networking Plus S,Hardware,Networking,415.82,765.22,4254,287,GlobalParts Ltd,WH-LON,2025-05-23,14.07,28x39x18
+SKU-010031,Implementation Max X,Services,Implementation,1321.39,3560.25,3568,244,EuroTech GmbH,WH-SIN,2025-04-19,1.38,22x23x15
+SKU-010032,Storage Max XL,Hardware,Storage,325.43,533.5,2821,379,Pacific Electronics,WH-AUS,2025-04-09,12.91,6x16x23
+SKU-010033,Consulting Basic M,Services,Consulting,1762.61,4019.78,3969,84,Atlas Manufacturing,WH-NYC,2025-06-09,13.91,40x7x4
+SKU-010034,Peripherals Plus S,Hardware,Peripherals,779.86,1778.22,1696,341,Pacific Electronics,WH-SIN,2025-01-11,22.4,30x27x26
+SKU-010035,Implementation Basic X,Services,Implementation,1357.51,3427.33,873,409,GlobalParts Ltd,WH-LON,2025-05-28,6.38,26x22x12
+SKU-010036,Plugins Ultra S,Software,Plugins,914.81,2459.61,1542,474,EuroTech GmbH,WH-NYC,2025-02-09,8.68,33x8x18
+SKU-010037,Smartphones Plus L,Electronics,Smartphones,1843.68,3523.12,4858,422,TechSupply Co,WH-AUS,2025-03-10,16.53,29x28x18
+SKU-010038,Servers Plus X,Hardware,Servers,1053.99,2457.08,2870,35,EuroTech GmbH,WH-SFO,2025-04-04,2.49,60x5x7
+SKU-010039,On-Premise Plus X,Software,On-Premise,1654.25,3104.98,4827,203,AsiaComponents,WH-SIN,2025-03-28,8.86,16x28x2
+SKU-010040,Storage Max XL,Hardware,Storage,436.8,581.64,2222,425,AsiaComponents,WH-SIN,2025-06-23,17.86,30x9x19
+SKU-010041,Accessories Plus L,Electronics,Accessories,575.6,1178.47,2590,277,GlobalParts Ltd,WH-TKY,2025-06-07,19.92,43x5x22
+SKU-010042,Audio Ultra X,Electronics,Audio,1166.08,2460.35,1917,123,EuroTech GmbH,WH-LON,2025-05-23,21.53,7x34x16
+SKU-010043,Peripherals Elite M,Hardware,Peripherals,880.8,2567.73,1761,487,TechSupply Co,WH-SIN,2025-06-22,11.47,25x26x12
+SKU-010044,Smartphones Elite S,Electronics,Smartphones,1392.95,3402.42,1634,427,Atlas Manufacturing,WH-LON,2025-02-24,2.32,54x35x25
+SKU-010045,Plugins Ultra S,Software,Plugins,1402.28,3306.68,3460,59,NorthAm Distributing,WH-SIN,2025-03-08,18.65,6x14x14
+SKU-010046,Smartphones Elite L,Electronics,Smartphones,253.47,650.67,2620,116,GlobalParts Ltd,WH-NYC,2025-01-02,11.18,55x38x29
+SKU-010047,Peripherals Plus S,Hardware,Peripherals,952.75,2352.24,2304,26,AsiaComponents,WH-LON,2025-02-01,18.77,10x10x18
+SKU-010048,Implementation Plus S,Services,Implementation,1750.91,2791.07,1349,390,AsiaComponents,WH-SFO,2025-01-25,12.78,10x23x20
+SKU-010049,Implementation Max S,Services,Implementation,1448.67,2149.42,610,247,TechSupply Co,WH-AUS,2025-03-26,18.73,11x17x26
+SKU-010050,Audio Max S,Electronics,Audio,548.53,871.18,4410,249,EuroTech GmbH,WH-AUS,2025-02-09,5.33,43x21x15
+SKU-010051,Mobile Apps Plus XL,Software,Mobile Apps,898.92,1328.17,4330,398,GlobalParts Ltd,WH-LON,2025-03-16,24.13,58x34x11
+SKU-010052,Peripherals Elite L,Hardware,Peripherals,230.98,627.76,3663,145,Pacific Electronics,WH-AUS,2025-04-20,23.09,12x39x2
+SKU-010053,Consulting Max X,Services,Consulting,264.82,429.87,3630,360,GlobalParts Ltd,WH-AUS,2025-01-11,8.93,56x15x28
+SKU-010054,Plugins Plus X,Software,Plugins,497.91,1225.76,3700,148,Pacific Electronics,WH-SFO,2025-03-27,17.55,39x39x30
+SKU-010055,Consulting Elite M,Services,Consulting,440.98,775.7,1235,298,Atlas Manufacturing,WH-SFO,2025-04-08,3.28,37x34x16
+SKU-010056,Storage Basic X,Hardware,Storage,1885.54,4758.07,4104,441,TechSupply Co,WH-LON,2025-02-03,20.15,55x36x20
+SKU-010057,Peripherals Plus L,Hardware,Peripherals,820.73,1073.32,4680,477,Pacific Electronics,WH-TKY,2025-06-15,14.35,57x16x17
+SKU-010058,Plugins Max XL,Software,Plugins,1280.17,1733.96,4046,315,TechSupply Co,WH-AUS,2025-05-16,18.43,39x16x28
+SKU-010059,Accessories Elite S,Electronics,Accessories,1321.23,3354.83,4190,276,TechSupply Co,WH-SFO,2025-01-25,4.81,13x22x2
+SKU-010060,SaaS Ultra L,Software,SaaS,1223.0,3232.88,1227,143,Atlas Manufacturing,WH-TKY,2025-04-10,21.88,25x31x24
+SKU-010061,On-Premise Pro M,Software,On-Premise,297.65,713.02,2694,166,Pacific Electronics,WH-TKY,2025-04-24,13.11,38x23x18
+SKU-010062,Tablets Elite X,Electronics,Tablets,1160.46,2025.6,2349,24,GlobalParts Ltd,WH-SIN,2025-05-24,3.82,24x19x23
+SKU-010063,Consulting Elite XL,Services,Consulting,1937.66,5366.69,2328,347,NorthAm Distributing,WH-SFO,2025-01-08,22.77,34x16x23
+SKU-010064,Networking Ultra XL,Hardware,Networking,1075.53,2982.54,260,216,NorthAm Distributing,WH-TKY,2025-03-16,5.65,48x26x9
+SKU-010065,Support Pro L,Services,Support,1684.7,2502.59,1237,80,TechSupply Co,WH-LON,2025-05-22,13.63,8x26x14
+SKU-010066,Laptops Ultra X,Electronics,Laptops,1829.89,2845.9,4063,128,GlobalParts Ltd,WH-AUS,2025-06-03,6.0,59x17x16
+SKU-010067,Smartphones Basic S,Electronics,Smartphones,782.8,1428.57,3350,303,Atlas Manufacturing,WH-NYC,2025-05-28,9.12,28x7x16
+SKU-010068,On-Premise Pro XL,Software,On-Premise,1562.13,4331.3,60,78,Pacific Electronics,WH-NYC,2025-03-09,17.07,50x12x9
+SKU-010069,Accessories Basic L,Electronics,Accessories,1688.57,2195.56,3039,38,AsiaComponents,WH-SFO,2025-05-07,10.25,5x29x10
+SKU-010070,Tablets Max S,Electronics,Tablets,1681.67,4954.45,1014,103,GlobalParts Ltd,WH-LON,2025-01-08,16.8,60x15x25
+SKU-010071,Servers Elite S,Hardware,Servers,165.05,250.24,1465,379,Atlas Manufacturing,WH-SFO,2025-02-19,14.48,48x13x24
+SKU-010072,Servers Basic X,Hardware,Servers,573.41,927.35,1912,98,GlobalParts Ltd,WH-SFO,2025-06-09,19.56,56x10x14
+SKU-010073,Smartphones Basic S,Electronics,Smartphones,1383.95,1997.68,4757,359,GlobalParts Ltd,WH-SFO,2025-01-11,15.31,37x24x23
+SKU-010074,SaaS Ultra M,Software,SaaS,1598.85,4612.33,2021,440,TechSupply Co,WH-AUS,2025-06-20,16.23,49x12x21
+SKU-010075,Consulting Max X,Services,Consulting,976.17,1669.88,869,65,AsiaComponents,WH-LON,2025-02-24,2.94,32x33x3
+SKU-010076,Tablets Ultra XL,Electronics,Tablets,228.28,655.47,2471,277,GlobalParts Ltd,WH-SFO,2025-04-09,16.65,29x14x22
+SKU-010077,Smartphones Ultra L,Electronics,Smartphones,1236.15,2002.95,1445,107,EuroTech GmbH,WH-LON,2025-02-21,17.27,41x18x21
+SKU-010078,Training Pro M,Services,Training,752.77,1795.17,1034,203,AsiaComponents,WH-TKY,2025-06-24,11.66,50x11x30
+SKU-010079,Implementation Plus XL,Services,Implementation,1892.79,2691.46,1166,169,Atlas Manufacturing,WH-LON,2025-06-01,2.51,6x27x20
+SKU-010080,Training Basic XL,Services,Training,649.14,1066.95,1352,242,Atlas Manufacturing,WH-SFO,2025-04-22,5.02,30x40x15
+SKU-010081,Implementation Ultra S,Services,Implementation,1656.64,3771.2,497,429,Pacific Electronics,WH-NYC,2025-05-23,8.68,7x22x2
+SKU-010082,Plugins Max M,Software,Plugins,1503.04,3049.01,3196,173,Pacific Electronics,WH-SFO,2025-01-11,19.94,52x13x7
+SKU-010083,Storage Plus X,Hardware,Storage,1041.54,2456.94,146,158,AsiaComponents,WH-AUS,2025-06-20,13.63,50x33x19
+SKU-010084,Tablets Ultra L,Electronics,Tablets,1801.63,5331.29,2797,164,NorthAm Distributing,WH-TKY,2025-06-04,21.1,14x12x7
+SKU-010085,Consulting Basic S,Services,Consulting,634.1,1087.17,2216,108,NorthAm Distributing,WH-LON,2025-02-01,15.33,13x31x21
+SKU-010086,Training Pro XL,Services,Training,426.62,591.15,1444,184,Pacific Electronics,WH-NYC,2025-01-21,9.14,21x26x21
+SKU-010087,Laptops Basic L,Electronics,Laptops,523.86,727.15,4400,192,Pacific Electronics,WH-SIN,2025-03-03,14.64,35x21x24
+SKU-010088,Mobile Apps Ultra M,Software,Mobile Apps,1886.78,3258.2,2430,453,Atlas Manufacturing,WH-AUS,2025-06-19,18.33,55x13x26
+SKU-010089,Audio Max X,Electronics,Audio,750.34,1383.85,2214,103,Atlas Manufacturing,WH-SIN,2025-02-03,20.88,56x33x30
+SKU-010090,Storage Max S,Hardware,Storage,1808.34,5146.11,1505,82,NorthAm Distributing,WH-AUS,2025-05-11,16.71,34x23x6
+SKU-010091,Implementation Max M,Services,Implementation,1485.43,1939.93,2279,431,Pacific Electronics,WH-LON,2025-01-19,24.15,60x24x16
+SKU-010092,Support Max S,Services,Support,143.63,292.76,4475,269,Pacific Electronics,WH-SFO,2025-01-24,24.73,51x15x13
+SKU-010093,Laptops Max M,Electronics,Laptops,218.36,607.21,4128,205,GlobalParts Ltd,WH-NYC,2025-01-03,10.91,29x28x28
+SKU-010094,Peripherals Pro X,Hardware,Peripherals,453.29,1073.92,1823,488,Pacific Electronics,WH-LON,2025-06-27,4.91,25x7x4
+SKU-010095,Peripherals Basic L,Hardware,Peripherals,1645.76,2175.02,2991,300,AsiaComponents,WH-SFO,2025-03-13,24.4,33x18x12
+SKU-010096,On-Premise Elite M,Software,On-Premise,1446.58,3931.58,3138,396,EuroTech GmbH,WH-TKY,2025-03-23,2.63,30x12x27
+SKU-010097,Support Plus L,Services,Support,838.18,1650.03,2584,168,TechSupply Co,WH-TKY,2025-02-08,9.63,26x37x14
+SKU-010098,Accessories Plus L,Electronics,Accessories,240.44,335.33,4672,302,EuroTech GmbH,WH-SIN,2025-02-20,22.15,16x22x30
+SKU-010099,Training Max S,Services,Training,460.93,821.26,3465,267,AsiaComponents,WH-SFO,2025-03-14,4.72,38x18x17
+SKU-010100,Peripherals Ultra S,Hardware,Peripherals,900.2,1613.6,4093,124,Pacific Electronics,WH-NYC,2025-04-24,23.52,12x8x17
+SKU-010101,Implementation Elite M,Services,Implementation,772.37,1901.5,3012,392,AsiaComponents,WH-SFO,2025-02-11,23.28,58x11x15
+SKU-010102,Storage Ultra L,Hardware,Storage,1225.82,3440.98,453,65,NorthAm Distributing,WH-LON,2025-04-10,13.9,59x36x14
+SKU-010103,Audio Plus M,Electronics,Audio,1340.31,2587.62,3701,229,Atlas Manufacturing,WH-SFO,2025-02-28,9.46,17x15x30
+SKU-010104,Networking Elite L,Hardware,Networking,1079.34,2194.05,1463,60,NorthAm Distributing,WH-AUS,2025-02-03,11.47,31x29x25
+SKU-010105,Peripherals Pro L,Hardware,Peripherals,843.37,1428.52,4975,477,Pacific Electronics,WH-SFO,2025-04-06,12.5,36x15x27
+SKU-010106,Plugins Basic L,Software,Plugins,753.19,1550.58,615,367,EuroTech GmbH,WH-TKY,2025-03-23,20.06,35x12x15
+SKU-010107,Servers Ultra S,Hardware,Servers,1796.84,2817.9,901,428,GlobalParts Ltd,WH-LON,2025-05-23,6.45,26x33x7
+SKU-010108,Storage Basic XL,Hardware,Storage,1193.37,1728.58,3526,377,GlobalParts Ltd,WH-TKY,2025-01-10,20.02,45x9x2
+SKU-010109,Peripherals Elite S,Hardware,Peripherals,1030.53,1464.07,4603,275,Pacific Electronics,WH-SFO,2025-04-01,5.61,20x12x13
+SKU-010110,Implementation Elite X,Services,Implementation,1939.18,2552.12,1583,282,Atlas Manufacturing,WH-LON,2025-01-20,13.44,39x29x3
+SKU-010111,Implementation Max M,Services,Implementation,1382.54,2520.23,4485,223,Pacific Electronics,WH-SIN,2025-01-03,1.17,17x5x19
+SKU-010112,Support Basic X,Services,Support,1060.56,1762.59,231,423,AsiaComponents,WH-LON,2025-01-13,1.95,30x11x8
+SKU-010113,Accessories Elite XL,Electronics,Accessories,409.91,730.85,2862,489,EuroTech GmbH,WH-SFO,2025-06-26,18.83,58x5x11
+SKU-010114,Audio Basic XL,Electronics,Audio,1128.19,1478.33,3919,277,Pacific Electronics,WH-AUS,2025-04-12,13.3,21x8x7
+SKU-010115,Networking Max XL,Hardware,Networking,1008.37,1425.13,1765,316,Atlas Manufacturing,WH-NYC,2025-04-19,17.24,26x23x26
+SKU-010116,Storage Basic L,Hardware,Storage,679.94,1943.51,190,474,Atlas Manufacturing,WH-NYC,2025-06-02,24.04,42x25x6
+SKU-010117,Consulting Ultra XL,Services,Consulting,1535.1,3822.76,3647,97,Atlas Manufacturing,WH-LON,2025-03-24,16.04,32x19x15
+SKU-010118,SaaS Plus S,Software,SaaS,723.84,1111.14,686,435,EuroTech GmbH,WH-SIN,2025-05-14,5.79,10x34x9
+SKU-010119,On-Premise Plus XL,Software,On-Premise,1987.8,4476.13,2884,332,GlobalParts Ltd,WH-TKY,2025-05-25,15.9,33x7x25
+SKU-010120,Smartphones Basic S,Electronics,Smartphones,665.21,903.09,1985,71,Atlas Manufacturing,WH-TKY,2025-02-20,4.51,51x25x14
+SKU-010121,SaaS Elite M,Software,SaaS,1707.45,2979.84,1592,500,EuroTech GmbH,WH-SFO,2025-02-01,22.25,25x36x11
+SKU-010122,SaaS Plus XL,Software,SaaS,446.21,985.75,21,105,NorthAm Distributing,WH-SIN,2025-04-25,3.41,47x37x16
+SKU-010123,Laptops Ultra M,Electronics,Laptops,1966.19,3792.94,2536,460,Atlas Manufacturing,WH-NYC,2025-01-22,21.08,35x30x22
+SKU-010124,Accessories Plus X,Electronics,Accessories,69.11,179.8,4728,291,NorthAm Distributing,WH-TKY,2025-04-10,6.67,46x25x27
+SKU-010125,Mobile Apps Pro L,Software,Mobile Apps,734.31,1772.54,4037,368,Pacific Electronics,WH-SFO,2025-03-21,16.11,32x18x9
+SKU-010126,Consulting Ultra X,Services,Consulting,821.52,2405.69,141,442,GlobalParts Ltd,WH-AUS,2025-02-07,1.83,17x6x9
+SKU-010127,Implementation Elite X,Services,Implementation,327.48,706.17,3614,287,TechSupply Co,WH-TKY,2025-05-02,5.02,6x18x25
+SKU-010128,Networking Basic XL,Hardware,Networking,97.32,150.64,4998,391,TechSupply Co,WH-LON,2025-02-10,22.33,40x26x28
+SKU-010129,Smartphones Ultra S,Electronics,Smartphones,1321.84,2899.04,4573,309,GlobalParts Ltd,WH-SFO,2025-01-10,19.76,45x29x17
+SKU-010130,Peripherals Plus L,Hardware,Peripherals,475.08,1403.26,2165,489,EuroTech GmbH,WH-TKY,2025-06-13,13.32,44x18x3
+SKU-010131,Accessories Plus L,Electronics,Accessories,425.45,563.66,4137,158,Atlas Manufacturing,WH-TKY,2025-03-08,12.74,26x6x18
+SKU-010132,Mobile Apps Ultra M,Software,Mobile Apps,1348.03,1822.61,2176,409,AsiaComponents,WH-LON,2025-02-18,6.22,45x37x19
+SKU-010133,Support Elite XL,Services,Support,352.18,485.97,2183,32,AsiaComponents,WH-LON,2025-06-26,11.44,56x21x25
+SKU-010134,SaaS Pro XL,Software,SaaS,1755.57,3837.26,3486,24,Atlas Manufacturing,WH-AUS,2025-04-12,19.79,19x19x23
+SKU-010135,Peripherals Pro X,Hardware,Peripherals,908.36,2358.57,3470,451,Atlas Manufacturing,WH-AUS,2025-03-06,12.03,42x37x9
+SKU-010136,Support Ultra XL,Services,Support,590.46,1597.01,4305,465,AsiaComponents,WH-AUS,2025-02-22,18.8,55x37x22
+SKU-010137,Tablets Basic L,Electronics,Tablets,442.02,1249.34,1894,414,Pacific Electronics,WH-SFO,2025-06-13,12.44,7x21x26
+SKU-010138,Consulting Basic M,Services,Consulting,695.98,1715.47,2539,413,GlobalParts Ltd,WH-SIN,2025-02-12,12.92,21x11x11
+SKU-010139,Audio Pro XL,Electronics,Audio,901.79,1672.64,1416,303,GlobalParts Ltd,WH-SFO,2025-06-02,8.73,35x29x26
+SKU-010140,Support Pro L,Services,Support,1607.71,2269.09,2290,175,Pacific Electronics,WH-TKY,2025-01-09,2.68,36x40x23
+SKU-010141,Support Pro M,Services,Support,1930.04,5039.1,969,215,EuroTech GmbH,WH-NYC,2025-02-14,22.62,59x22x15
+SKU-010142,SaaS Max L,Software,SaaS,368.67,960.52,4037,182,Atlas Manufacturing,WH-NYC,2025-03-16,13.84,31x30x16
+SKU-010143,Plugins Pro X,Software,Plugins,1679.18,2263.21,1189,336,Pacific Electronics,WH-AUS,2025-02-09,8.11,32x10x13
+SKU-010144,Peripherals Basic X,Hardware,Peripherals,1226.42,3588.83,2444,288,Pacific Electronics,WH-LON,2025-01-20,14.9,37x18x24
+SKU-010145,Plugins Max X,Software,Plugins,1486.47,4312.12,4367,271,GlobalParts Ltd,WH-NYC,2025-04-04,0.79,42x31x2
+SKU-010146,On-Premise Basic L,Software,On-Premise,459.48,1071.54,166,372,GlobalParts Ltd,WH-NYC,2025-04-26,24.01,13x22x8
+SKU-010147,Support Pro L,Services,Support,1920.52,4923.93,801,78,AsiaComponents,WH-SIN,2025-04-24,15.4,52x33x4
+SKU-010148,Servers Plus L,Hardware,Servers,246.83,601.93,3618,437,TechSupply Co,WH-TKY,2025-02-04,17.23,44x17x18
+SKU-010149,Audio Max L,Electronics,Audio,1590.24,2452.08,3806,460,Atlas Manufacturing,WH-SFO,2025-01-17,18.7,9x15x19
+SKU-010150,Mobile Apps Pro S,Software,Mobile Apps,1547.98,4488.04,2199,232,Pacific Electronics,WH-AUS,2025-01-22,12.87,19x26x23
+SKU-010151,Support Pro XL,Services,Support,1272.0,2112.72,2501,416,AsiaComponents,WH-SIN,2025-03-06,21.2,24x28x22
+SKU-010152,Networking Ultra M,Hardware,Networking,1012.38,1984.95,3830,231,EuroTech GmbH,WH-LON,2025-02-25,13.07,31x40x18
+SKU-010153,Tablets Max S,Electronics,Tablets,1939.16,5814.84,1741,354,AsiaComponents,WH-SFO,2025-02-24,22.2,36x18x8
+SKU-010154,Plugins Pro XL,Software,Plugins,1320.98,3602.31,4263,335,AsiaComponents,WH-LON,2025-03-18,14.31,8x14x2
+SKU-010155,Networking Max X,Hardware,Networking,1594.52,2706.19,4998,302,GlobalParts Ltd,WH-SFO,2025-03-16,24.74,37x32x28
+SKU-010156,Storage Max L,Hardware,Storage,1425.93,3858.4,1336,50,Atlas Manufacturing,WH-NYC,2025-01-26,24.04,14x37x16
+SKU-010157,Smartphones Basic L,Electronics,Smartphones,249.21,344.17,1292,395,AsiaComponents,WH-NYC,2025-01-21,16.64,13x14x13
+SKU-010158,Training Elite XL,Services,Training,512.33,856.68,3398,497,GlobalParts Ltd,WH-AUS,2025-01-14,10.52,27x21x13
+SKU-010159,Implementation Plus X,Services,Implementation,1567.28,2181.01,1553,235,TechSupply Co,WH-SFO,2025-01-19,22.66,28x28x17
+SKU-010160,Networking Basic L,Hardware,Networking,1817.91,5084.1,1057,294,AsiaComponents,WH-AUS,2025-02-15,2.42,11x35x22
+SKU-010161,Audio Max X,Electronics,Audio,707.39,2041.67,3305,362,TechSupply Co,WH-AUS,2025-06-16,21.06,39x10x18
+SKU-010162,Support Basic XL,Services,Support,1832.91,3955.99,724,311,Atlas Manufacturing,WH-SFO,2025-05-21,22.59,13x20x21
+SKU-010163,Plugins Pro XL,Software,Plugins,1041.51,1454.94,3792,196,EuroTech GmbH,WH-SFO,2025-03-28,10.12,58x16x26
+SKU-010164,Smartphones Plus X,Electronics,Smartphones,1906.23,5162.9,2116,413,NorthAm Distributing,WH-LON,2025-01-14,16.43,32x38x12
+SKU-010165,Smartphones Max L,Electronics,Smartphones,395.44,812.69,33,490,TechSupply Co,WH-LON,2025-04-28,5.21,10x8x6
+SKU-010166,Support Elite L,Services,Support,354.95,745.56,4147,342,EuroTech GmbH,WH-NYC,2025-02-04,18.12,22x35x2
+SKU-010167,Laptops Plus S,Electronics,Laptops,793.6,1055.97,3032,329,GlobalParts Ltd,WH-TKY,2025-04-19,4.14,19x29x6
+SKU-010168,Smartphones Pro M,Electronics,Smartphones,1983.67,3361.48,1158,376,NorthAm Distributing,WH-TKY,2025-04-08,0.88,50x37x14
+SKU-010169,SaaS Max L,Software,SaaS,171.32,227.91,980,362,NorthAm Distributing,WH-SIN,2025-03-07,9.18,9x17x25
+SKU-010170,Networking Plus XL,Hardware,Networking,1350.43,2328.63,2309,480,NorthAm Distributing,WH-AUS,2025-05-05,7.5,48x12x21
+SKU-010171,Consulting Plus S,Services,Consulting,1450.31,2411.43,986,111,Atlas Manufacturing,WH-NYC,2025-05-17,4.03,53x19x21
+SKU-010172,Plugins Max L,Software,Plugins,646.08,941.69,1666,35,AsiaComponents,WH-LON,2025-03-26,7.11,56x26x24
+SKU-010173,Peripherals Pro S,Hardware,Peripherals,652.69,1061.71,2416,225,Atlas Manufacturing,WH-SIN,2025-01-26,11.97,55x15x25
+SKU-010174,Servers Pro L,Hardware,Servers,562.07,831.16,3848,428,NorthAm Distributing,WH-TKY,2025-05-19,10.58,53x27x25
+SKU-010175,Plugins Basic M,Software,Plugins,1831.29,2382.38,2567,265,NorthAm Distributing,WH-LON,2025-02-16,21.55,19x34x8
+SKU-010176,Training Basic S,Services,Training,340.7,672.55,4714,240,GlobalParts Ltd,WH-LON,2025-03-09,14.28,35x12x7
+SKU-010177,Plugins Basic S,Software,Plugins,1816.61,3332.75,598,223,NorthAm Distributing,WH-NYC,2025-01-02,14.54,54x14x13
+SKU-010178,Networking Elite XL,Hardware,Networking,1728.63,4434.96,418,258,TechSupply Co,WH-SIN,2025-05-12,5.98,55x35x2
+SKU-010179,Support Basic XL,Services,Support,79.9,131.76,4047,304,EuroTech GmbH,WH-TKY,2025-05-26,3.34,58x19x30
+SKU-010180,Implementation Pro M,Services,Implementation,1221.11,2133.2,567,378,NorthAm Distributing,WH-AUS,2025-05-21,6.17,39x6x11
+SKU-010181,Peripherals Pro M,Hardware,Peripherals,1222.15,3638.51,2683,411,TechSupply Co,WH-LON,2025-05-09,15.17,31x8x9
+SKU-010182,Peripherals Pro L,Hardware,Peripherals,1270.72,3804.23,3778,48,TechSupply Co,WH-AUS,2025-03-02,1.55,54x11x17
+SKU-010183,Audio Max X,Electronics,Audio,1261.18,2164.03,1222,246,EuroTech GmbH,WH-AUS,2025-03-01,13.99,40x38x11
+SKU-010184,Implementation Basic M,Services,Implementation,733.39,1217.98,962,175,Pacific Electronics,WH-SFO,2025-04-10,5.44,20x38x6
+SKU-010185,Plugins Pro XL,Software,Plugins,1690.08,4596.28,12,243,AsiaComponents,WH-SFO,2025-05-18,10.44,55x13x26
+SKU-010186,Support Max L,Services,Support,984.19,1440.05,4439,431,GlobalParts Ltd,WH-AUS,2025-06-07,1.39,33x26x24
+SKU-010187,Peripherals Plus M,Hardware,Peripherals,1659.35,3304.84,771,450,NorthAm Distributing,WH-LON,2025-01-24,20.02,58x5x3
+SKU-010188,On-Premise Elite X,Software,On-Premise,336.55,670.83,3291,225,Pacific Electronics,WH-TKY,2025-04-06,15.44,37x20x15
+SKU-010189,Audio Elite XL,Electronics,Audio,1257.7,3160.44,237,369,Pacific Electronics,WH-AUS,2025-02-20,10.14,51x37x23
+SKU-010190,Laptops Max X,Electronics,Laptops,876.81,2269.09,1258,128,TechSupply Co,WH-LON,2025-01-21,22.26,15x32x12
+SKU-010191,Accessories Basic L,Electronics,Accessories,930.85,2130.4,1511,281,GlobalParts Ltd,WH-TKY,2025-02-14,13.33,13x19x2
+SKU-010192,Networking Pro X,Hardware,Networking,305.52,567.18,3486,45,Pacific Electronics,WH-SFO,2025-05-21,2.76,16x20x2
+SKU-010193,Training Ultra X,Services,Training,1054.6,3053.29,4599,488,Atlas Manufacturing,WH-SFO,2025-06-05,4.24,13x21x22
+SKU-010194,Plugins Pro X,Software,Plugins,706.84,1072.27,779,26,EuroTech GmbH,WH-AUS,2025-03-11,4.54,60x8x25
+SKU-010195,Servers Pro XL,Hardware,Servers,78.52,224.68,655,331,Pacific Electronics,WH-TKY,2025-01-11,12.66,37x28x22
+SKU-010196,Smartphones Pro M,Electronics,Smartphones,1943.61,2735.56,2644,64,GlobalParts Ltd,WH-NYC,2025-06-28,8.66,58x9x5
+SKU-010197,Plugins Max S,Software,Plugins,1556.95,4493.13,491,212,EuroTech GmbH,WH-SFO,2025-02-19,1.47,36x20x19
+SKU-010198,Accessories Elite L,Electronics,Accessories,1236.78,1806.92,4957,476,TechSupply Co,WH-SIN,2025-01-02,6.97,12x24x5
+SKU-010199,Peripherals Plus M,Hardware,Peripherals,1411.48,3038.73,990,394,EuroTech GmbH,WH-SFO,2025-01-19,8.8,19x23x19
+SKU-010200,Mobile Apps Plus M,Software,Mobile Apps,1862.26,2628.06,1304,458,GlobalParts Ltd,WH-TKY,2025-06-06,7.6,60x35x21
+SKU-010201,Tablets Ultra M,Electronics,Tablets,374.57,633.11,1580,253,AsiaComponents,WH-SFO,2025-05-28,1.84,35x40x8
+SKU-010202,Peripherals Pro M,Hardware,Peripherals,390.98,938.1,2212,280,AsiaComponents,WH-SIN,2025-05-03,2.6,28x27x16
+SKU-010203,Consulting Basic L,Services,Consulting,947.09,1268.88,3697,228,EuroTech GmbH,WH-NYC,2025-04-03,1.55,56x29x5
+SKU-010204,Tablets Pro L,Electronics,Tablets,353.36,916.7,2047,115,Pacific Electronics,WH-AUS,2025-03-08,14.09,38x14x29
+SKU-010205,Tablets Pro X,Electronics,Tablets,1248.96,3659.07,4393,379,EuroTech GmbH,WH-AUS,2025-05-13,22.26,32x5x3
+SKU-010206,Networking Pro L,Hardware,Networking,528.62,1106.29,2577,162,NorthAm Distributing,WH-SFO,2025-03-10,23.17,20x21x10
+SKU-010207,Training Max M,Services,Training,805.77,1286.6,1774,59,NorthAm Distributing,WH-AUS,2025-05-04,17.89,19x39x30
+SKU-010208,On-Premise Pro M,Software,On-Premise,565.8,1409.4,2492,478,AsiaComponents,WH-NYC,2025-05-24,21.12,44x15x16
+SKU-010209,Implementation Basic XL,Services,Implementation,1987.29,4116.81,1558,326,NorthAm Distributing,WH-AUS,2025-04-04,22.94,30x6x3
+SKU-010210,Laptops Max L,Electronics,Laptops,217.77,372.88,4035,44,Atlas Manufacturing,WH-SIN,2025-04-22,15.18,34x38x22
+SKU-010211,On-Premise Plus S,Software,On-Premise,126.28,176.51,3692,429,AsiaComponents,WH-SIN,2025-03-02,20.41,8x5x29
+SKU-010212,Training Plus L,Services,Training,1270.46,1707.65,2227,351,EuroTech GmbH,WH-SFO,2025-03-28,0.15,38x6x27
+SKU-010213,Mobile Apps Max XL,Software,Mobile Apps,1484.52,3782.6,4141,243,GlobalParts Ltd,WH-TKY,2025-06-18,6.66,33x5x10
+SKU-010214,Audio Plus X,Electronics,Audio,63.37,190.08,988,263,EuroTech GmbH,WH-NYC,2025-02-16,14.3,33x19x3
+SKU-010215,Tablets Pro X,Electronics,Tablets,1802.25,4824.24,1594,355,NorthAm Distributing,WH-NYC,2025-03-04,21.21,38x32x11
+SKU-010216,Consulting Pro S,Services,Consulting,524.17,1013.54,2600,114,TechSupply Co,WH-NYC,2025-04-25,19.31,23x22x28
+SKU-010217,Consulting Pro S,Services,Consulting,1711.56,4881.29,2934,430,EuroTech GmbH,WH-SFO,2025-03-24,17.72,6x5x17
+SKU-010218,Networking Elite X,Hardware,Networking,1783.28,2769.86,4406,51,GlobalParts Ltd,WH-SFO,2025-02-23,24.5,11x25x27
+SKU-010219,Plugins Ultra L,Software,Plugins,1873.54,2988.31,3962,360,EuroTech GmbH,WH-SIN,2025-03-23,20.28,25x34x5
+SKU-010220,Implementation Plus XL,Services,Implementation,289.97,384.71,222,248,GlobalParts Ltd,WH-TKY,2025-03-26,12.92,56x21x20
+SKU-010221,On-Premise Pro XL,Software,On-Premise,247.69,467.96,901,50,Atlas Manufacturing,WH-TKY,2025-05-07,2.05,19x26x29
+SKU-010222,Consulting Ultra L,Services,Consulting,1813.76,2539.13,1614,227,Pacific Electronics,WH-SFO,2025-04-14,9.08,37x10x18
+SKU-010223,Plugins Pro L,Software,Plugins,1669.76,4945.86,3448,49,GlobalParts Ltd,WH-LON,2025-03-23,1.48,33x27x19
+SKU-010224,Networking Max S,Hardware,Networking,1222.76,3258.33,3921,438,Atlas Manufacturing,WH-TKY,2025-03-02,19.62,17x22x23
+SKU-010225,Storage Max M,Hardware,Storage,422.18,592.92,4239,362,Atlas Manufacturing,WH-LON,2025-05-20,24.0,8x37x16
+SKU-010226,Consulting Ultra S,Services,Consulting,982.14,2661.41,3095,170,EuroTech GmbH,WH-SIN,2025-01-27,4.95,52x37x4
+SKU-010227,Training Max L,Services,Training,331.43,436.23,1670,178,AsiaComponents,WH-NYC,2025-04-01,2.73,13x30x27
+SKU-010228,Plugins Plus L,Software,Plugins,1299.86,1984.64,4686,56,NorthAm Distributing,WH-AUS,2025-02-10,20.41,36x35x22
+SKU-010229,Consulting Plus S,Services,Consulting,202.35,298.09,4368,143,AsiaComponents,WH-NYC,2025-01-04,22.86,53x36x5
+SKU-010230,Plugins Pro X,Software,Plugins,677.85,1089.03,3735,216,NorthAm Distributing,WH-LON,2025-04-14,21.06,32x27x29
+SKU-010231,Support Ultra XL,Services,Support,1088.05,1474.58,1504,52,Pacific Electronics,WH-SFO,2025-02-27,11.12,42x33x8
+SKU-010232,Support Elite X,Services,Support,732.61,1569.78,603,369,GlobalParts Ltd,WH-LON,2025-05-18,18.25,33x32x22
+SKU-010233,Servers Pro S,Hardware,Servers,649.79,1368.54,1115,500,TechSupply Co,WH-AUS,2025-05-03,6.26,29x38x9
+SKU-010234,Laptops Plus L,Electronics,Laptops,1577.12,3395.36,4724,258,Pacific Electronics,WH-NYC,2025-02-25,0.51,56x10x26
+SKU-010235,Laptops Elite L,Electronics,Laptops,1893.96,2551.38,1863,221,NorthAm Distributing,WH-SIN,2025-03-27,15.25,43x14x17
+SKU-010236,Plugins Elite S,Software,Plugins,956.51,1697.37,4016,500,AsiaComponents,WH-LON,2025-04-04,23.77,41x26x29
+SKU-010237,Storage Basic L,Hardware,Storage,1135.61,3288.83,4424,90,EuroTech GmbH,WH-AUS,2025-04-02,6.59,51x16x30
+SKU-010238,Accessories Max XL,Electronics,Accessories,1004.82,2136.52,3155,441,Atlas Manufacturing,WH-LON,2025-03-10,4.71,40x17x20
+SKU-010239,Training Pro X,Services,Training,1880.8,3000.09,4038,168,GlobalParts Ltd,WH-SIN,2025-06-22,23.8,25x22x17
+SKU-010240,Laptops Plus XL,Electronics,Laptops,108.8,223.01,722,31,NorthAm Distributing,WH-SFO,2025-04-26,14.06,22x14x9
+SKU-010241,Implementation Elite S,Services,Implementation,789.59,1673.29,2620,491,NorthAm Distributing,WH-SIN,2025-05-18,5.63,11x40x17
+SKU-010242,Servers Max M,Hardware,Servers,731.48,1609.28,959,272,GlobalParts Ltd,WH-LON,2025-04-27,7.46,54x12x4
+SKU-010243,Laptops Ultra X,Electronics,Laptops,1453.54,2881.35,374,226,TechSupply Co,WH-TKY,2025-05-07,13.54,21x36x9
+SKU-010244,Smartphones Pro L,Electronics,Smartphones,1523.55,3007.1,4081,96,TechSupply Co,WH-SIN,2025-03-02,14.07,13x30x4
+SKU-010245,Training Basic XL,Services,Training,620.37,1168.93,3192,269,AsiaComponents,WH-SIN,2025-01-25,2.89,27x15x28
+SKU-010246,Servers Basic M,Hardware,Servers,1399.71,1838.33,3721,22,AsiaComponents,WH-SIN,2025-06-08,8.21,40x12x11
+SKU-010247,Laptops Pro M,Electronics,Laptops,1914.51,5554.78,195,132,GlobalParts Ltd,WH-SIN,2025-04-20,23.17,47x39x9
+SKU-010248,SaaS Ultra X,Software,SaaS,1817.61,4907.63,4114,385,TechSupply Co,WH-AUS,2025-05-16,7.02,46x7x3
+SKU-010249,Support Max M,Services,Support,454.67,701.9,1347,118,GlobalParts Ltd,WH-NYC,2025-06-16,9.67,51x18x12
+SKU-010250,Implementation Elite M,Services,Implementation,1932.66,4460.2,2240,429,EuroTech GmbH,WH-NYC,2025-02-06,22.58,23x35x6
+SKU-010251,On-Premise Ultra L,Software,On-Premise,446.38,1146.87,1299,32,Atlas Manufacturing,WH-AUS,2025-06-07,4.59,14x33x12
+SKU-010252,Consulting Max S,Services,Consulting,1002.81,2820.28,2899,166,Pacific Electronics,WH-LON,2025-06-03,20.51,19x6x21
+SKU-010253,Audio Ultra S,Electronics,Audio,1505.58,3795.81,4704,157,Pacific Electronics,WH-AUS,2025-02-09,2.82,59x15x21
+SKU-010254,Training Elite S,Services,Training,718.84,1670.76,3035,272,Pacific Electronics,WH-SIN,2025-02-05,0.88,44x19x20
+SKU-010255,Support Max S,Services,Support,1239.46,1687.33,217,322,GlobalParts Ltd,WH-TKY,2025-04-15,13.39,58x10x10
+SKU-010256,Storage Basic M,Hardware,Storage,546.57,1393.74,2553,385,AsiaComponents,WH-NYC,2025-05-21,11.64,19x36x6
+SKU-010257,Training Max S,Services,Training,335.52,568.01,2078,113,EuroTech GmbH,WH-AUS,2025-03-12,24.73,33x19x17
+SKU-010258,Servers Pro L,Hardware,Servers,471.4,1089.03,625,178,GlobalParts Ltd,WH-SFO,2025-02-28,22.94,21x27x14
+SKU-010259,Implementation Basic L,Services,Implementation,1821.68,4967.26,286,64,Atlas Manufacturing,WH-TKY,2025-01-12,15.59,10x39x9
+SKU-010260,On-Premise Basic X,Software,On-Premise,472.28,931.47,3046,72,GlobalParts Ltd,WH-LON,2025-05-10,2.92,54x8x24
+SKU-010261,Mobile Apps Elite S,Software,Mobile Apps,175.5,495.28,3613,22,Pacific Electronics,WH-AUS,2025-06-05,3.39,10x34x9
+SKU-010262,On-Premise Plus XL,Software,On-Premise,1265.16,3310.82,322,211,Pacific Electronics,WH-SIN,2025-06-24,16.1,31x19x2
+SKU-010263,Consulting Max XL,Services,Consulting,1253.04,3698.76,2325,218,Atlas Manufacturing,WH-NYC,2025-05-24,15.3,59x33x12
+SKU-010264,Consulting Max X,Services,Consulting,1156.57,2732.37,2719,54,TechSupply Co,WH-NYC,2025-05-17,7.7,46x18x18
+SKU-010265,Mobile Apps Plus M,Software,Mobile Apps,38.3,86.81,1199,107,GlobalParts Ltd,WH-SIN,2025-06-13,15.2,59x37x25
+SKU-010266,Training Ultra X,Services,Training,1746.43,4231.06,452,442,GlobalParts Ltd,WH-AUS,2025-01-28,9.97,25x17x8
+SKU-010267,On-Premise Pro X,Software,On-Premise,1205.05,3514.9,4989,348,NorthAm Distributing,WH-TKY,2025-04-10,22.11,53x12x4
+SKU-010268,Servers Plus M,Hardware,Servers,1989.36,3889.38,2065,319,Atlas Manufacturing,WH-NYC,2025-02-20,10.44,28x35x19
+SKU-010269,Plugins Pro M,Software,Plugins,1173.54,1628.91,121,243,TechSupply Co,WH-NYC,2025-02-06,10.46,52x5x28
+SKU-010270,Networking Max L,Hardware,Networking,1826.22,2625.15,2190,135,TechSupply Co,WH-SFO,2025-03-07,14.1,38x19x5
+SKU-010271,SaaS Elite XL,Software,SaaS,628.95,1757.04,2231,459,Atlas Manufacturing,WH-NYC,2025-02-24,10.58,32x7x26
+SKU-010272,Smartphones Elite XL,Electronics,Smartphones,1330.98,3136.51,4030,329,Pacific Electronics,WH-NYC,2025-06-18,4.37,13x11x3
+SKU-010273,Tablets Pro XL,Electronics,Tablets,1516.53,1986.15,3399,260,Atlas Manufacturing,WH-SIN,2025-03-19,12.11,6x23x23
+SKU-010274,SaaS Ultra L,Software,SaaS,1167.42,2853.69,3750,442,EuroTech GmbH,WH-AUS,2025-02-04,24.3,8x24x12
+SKU-010275,SaaS Elite S,Software,SaaS,1197.69,3304.19,2281,478,GlobalParts Ltd,WH-TKY,2025-03-24,20.23,15x35x4
+SKU-010276,Peripherals Pro L,Hardware,Peripherals,1553.37,2491.14,2835,493,EuroTech GmbH,WH-NYC,2025-02-08,20.5,54x34x13
+SKU-010277,Audio Max S,Electronics,Audio,1327.63,3773.73,2125,52,EuroTech GmbH,WH-AUS,2025-03-24,14.57,59x18x15
+SKU-010278,Smartphones Plus L,Electronics,Smartphones,802.49,1638.4,4198,124,Pacific Electronics,WH-SFO,2025-04-07,11.68,14x25x17
+SKU-010279,Storage Pro L,Hardware,Storage,1065.97,2115.79,4912,432,TechSupply Co,WH-SFO,2025-02-26,12.88,40x39x5
+SKU-010280,Laptops Max S,Electronics,Laptops,1142.29,3084.42,4548,98,Pacific Electronics,WH-NYC,2025-02-22,24.65,60x26x18
+SKU-010281,Training Ultra S,Services,Training,436.53,1295.96,1160,126,Atlas Manufacturing,WH-LON,2025-02-05,10.5,9x6x5
+SKU-010282,Storage Basic L,Hardware,Storage,1906.53,2935.87,44,431,EuroTech GmbH,WH-LON,2025-04-15,10.59,51x30x5
+SKU-010283,Mobile Apps Basic S,Software,Mobile Apps,1967.17,4182.5,1950,73,TechSupply Co,WH-SIN,2025-03-08,24.87,39x37x20
+SKU-010284,SaaS Plus M,Software,SaaS,505.37,743.13,4953,209,EuroTech GmbH,WH-SIN,2025-01-25,23.81,57x30x23
+SKU-010285,Support Plus L,Services,Support,1488.31,2809.1,841,349,Pacific Electronics,WH-AUS,2025-04-04,3.77,36x29x22
+SKU-010286,Peripherals Max S,Hardware,Peripherals,762.32,1382.53,3504,480,EuroTech GmbH,WH-LON,2025-05-22,22.3,7x16x19
+SKU-010287,Plugins Plus XL,Software,Plugins,1684.94,3493.56,2436,395,AsiaComponents,WH-AUS,2025-05-06,8.37,23x25x16
+SKU-010288,Training Elite X,Services,Training,595.94,1596.75,4575,34,TechSupply Co,WH-NYC,2025-04-22,9.72,20x28x30
+SKU-010289,SaaS Elite X,Software,SaaS,476.72,724.34,2162,495,AsiaComponents,WH-TKY,2025-06-12,5.76,25x15x4
+SKU-010290,Consulting Elite L,Services,Consulting,1961.27,5249.7,3893,417,EuroTech GmbH,WH-TKY,2025-05-18,4.9,7x8x6
+SKU-010291,Laptops Plus L,Electronics,Laptops,86.63,140.73,399,299,Atlas Manufacturing,WH-SFO,2025-06-01,15.95,13x10x28
+SKU-010292,Networking Pro XL,Hardware,Networking,369.18,795.38,2530,323,AsiaComponents,WH-LON,2025-03-01,23.23,32x15x17
+SKU-010293,Audio Max XL,Electronics,Audio,255.63,499.29,580,197,AsiaComponents,WH-LON,2025-06-18,1.44,29x33x30
+SKU-010294,Support Ultra L,Services,Support,1415.01,2880.91,269,175,TechSupply Co,WH-TKY,2025-03-03,3.4,30x25x29
+SKU-010295,Peripherals Elite X,Hardware,Peripherals,1684.08,3570.61,2232,412,AsiaComponents,WH-SFO,2025-03-05,5.97,33x33x27
+SKU-010296,Consulting Basic M,Services,Consulting,1536.71,2014.02,4339,477,AsiaComponents,WH-SFO,2025-04-21,14.97,56x26x22
+SKU-010297,Implementation Elite S,Services,Implementation,487.99,806.07,959,464,AsiaComponents,WH-LON,2025-06-07,24.24,46x18x15
+SKU-010298,Accessories Pro S,Electronics,Accessories,317.6,524.4,3382,336,Atlas Manufacturing,WH-SFO,2025-06-16,0.9,20x35x9
+SKU-010299,Implementation Plus XL,Services,Implementation,1656.32,2275.28,741,339,EuroTech GmbH,WH-TKY,2025-01-15,17.89,5x22x30

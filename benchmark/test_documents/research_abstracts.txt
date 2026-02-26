@@ -1,0 +1,35 @@
+SELECTED ABSTRACTS: ADVANCES IN MACHINE LEARNING SYSTEMS (2025)
+======================================================================
+
+[1] Efficient Attention Mechanisms for Long-Context Language Models
+---------------------------------------------------------------
+We present FlashAttention-3, a hardware-aware attention algorithm that achieves 2.3x speedup over FlashAttention-2 on H100 GPUs. By exploiting the asynchronous execution capabilities of the Hopper architecture, including warp-specialized pipelining and FP8 tensor cores, we demonstrate sustained throughput of 740 TFLOPS for sequence lengths up to 256K tokens. Our approach reduces memory usage by 40% compared to standard attention while maintaining numerical precision within 0.01% of exact attention. We validate on GPT-4 scale models across language modeling, code generation, and multi-document summarization tasks.
+
+[2] Scaling Laws for Mixture-of-Experts Models
+------------------------------------------
+We investigate the scaling behavior of Sparse Mixture-of-Experts (MoE) language models across 3 orders of magnitude (1B to 1T total parameters). Our analysis reveals that MoE models follow modified Chinchilla scaling laws with an effective parameter count of approximately 0.3x total parameters for 8-expert top-2 routing. We identify critical load balancing thresholds below which training becomes unstable, and propose Adaptive Expert Allocation (AEA), a dynamic routing strategy that reduces expert collapse probability by 85%. Models trained with AEA achieve equivalent quality to dense models at 2.7x lower compute cost.
+
+[3] Constitutional AI: Aligning Language Models through Self-Improvement
+--------------------------------------------------------------------
+We introduce Constitutional AI v2 (CAI-v2), an alignment framework where language models iteratively refine their own behavior using a set of written principles. Unlike RLHF, CAI-v2 requires no human preference labels during the alignment phase. We demonstrate that CAI-v2-aligned models score 12% higher on harmlessness benchmarks while maintaining 98.5% of helpfulness compared to RLHF-aligned baselines. The method scales efficiently to multi-turn conversations and domain-specific applications. We release our constitutional principles and alignment methodology for reproducibility.
+
+[4] Speculative Decoding with Learned Draft Models
+----------------------------------------------
+We propose SpecDraft, a framework for training lightweight draft models specifically optimized for speculative decoding with large language models. Unlike prior work using smaller pre-trained models as drafts, SpecDraft models are trained with a novel acceptance-rate-aware objective that maximizes the expected tokens accepted per draft step. Our 150M parameter SpecDraft model achieves 3.8x speedup when paired with a 70B target model, compared to 2.1x for Medusa and 2.5x for standard speculative decoding. We further introduce multi-sequence speculative decoding for batch inference scenarios.
+
+[5] Retrieval-Augmented Generation at Scale: Lessons from Production
+----------------------------------------------------------------
+We present architectural insights from deploying RAG systems serving 50M+ daily queries across enterprise search, customer support, and code assistance applications. We identify five critical failure modes: retrieval drift (23% of failures), chunk boundary artifacts (18%), embedding space gaps (15%), context window overflow (12%), and citation hallucination (8%). We introduce Adaptive RAG, a production framework incorporating query-aware chunking, hierarchical retrieval with re-ranking, and grounded generation with provenance tracking. Adaptive RAG reduces hallucination rates by 67% and improves answer accuracy by 34% compared to naive RAG implementations.
+
+[6] Efficient Fine-Tuning with Quantized Low-Rank Adaptation
+--------------------------------------------------------
+We introduce QLoRA-2, an improved parameter-efficient fine-tuning method that combines 4-bit NormalFloat quantization with rank-adaptive LoRA decomposition. QLoRA-2 automatically determines optimal rank allocation per layer using a gradient-based importance score, resulting in 15-30% fewer trainable parameters than fixed-rank LoRA with equivalent or superior task performance. We demonstrate fine-tuning of 70B parameter models on a single 24GB GPU with training throughput of 1,200 tokens/second. Extensive evaluation across 15 benchmarks shows QLoRA-2 closes the gap to full fine-tuning to within 0.3% on average.
+
+[7] Multimodal Foundation Models: Unifying Vision, Language, and Action
+-------------------------------------------------------------------
+We present Unified-3, a 120B parameter multimodal foundation model trained on 15T tokens spanning text, images, video, audio, and robotic action trajectories. Unified-3 achieves state-of-the-art results on 28 of 32 evaluated benchmarks, including MMLU (91.2%), VQA-v2 (84.7%), VideoQA (78.3%), and Language-Table (93.1% success rate). Key architectural innovations include cross-modal attention routing, temporal-aware position embeddings, and a unified tokenizer handling continuous and discrete modalities. We demonstrate emergent cross-modal reasoning capabilities not present in single-modality or dual-modality models.
+
+[8] Watermarking Language Model Outputs for AI-Generated Text Detection
+-------------------------------------------------------------------
+We propose Semstamp, a semantic watermarking scheme that embeds statistically detectable signals in LLM outputs without degrading text quality. Unlike token-level watermarks, Semstamp operates on semantic sentence embeddings, making it robust to paraphrasing attacks (92% detection rate after paraphrasing vs. 34% for prior methods). The watermark is imperceptible: human evaluators prefer watermarked text over unwatermarked text 49.8% of the time (statistically indistinguishable). We provide formal security guarantees and analyze the information-theoretic capacity of semantic watermarking channels.
+
