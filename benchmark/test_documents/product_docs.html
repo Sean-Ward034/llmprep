@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>StreamKit API Documentation v3.2</title>
+    <style>
+        body { font-family: -apple-system, sans-serif; max-width: 900px; margin: 0 auto; padding: 20px; }
+        code { background: #f4f4f4; padding: 2px 6px; border-radius: 3px; }
+        pre { background: #1e1e1e; color: #d4d4d4; padding: 16px; border-radius: 8px; overflow-x: auto; }
+        table { border-collapse: collapse; width: 100%; margin: 16px 0; }
+        th, td { border: 1px solid #ddd; padding: 8px 12px; text-align: left; }
+        th { background: #f8f9fa; }
+        .endpoint { background: #e8f5e9; padding: 4px 8px; border-radius: 4px; font-weight: bold; }
+        .method { display: inline-block; padding: 2px 8px; border-radius: 4px; color: white; font-size: 12px; }
+        .get { background: #4caf50; } .post { background: #2196f3; } .put { background: #ff9800; } .delete { background: #f44336; }
+    </style>
+</head>
+<body>
+    <h1>StreamKit API Documentation</h1>
+    <p>Version 3.2 | Last Updated: 2025-06-01</p>
+
+    <h2>Authentication</h2>
+    <p>All API requests require authentication via Bearer token in the <code>Authorization</code> header.</p>
+    <pre>Authorization: Bearer sk_live_abc123def456...</pre>
+    <p>Tokens can be generated from the <a href="#">Dashboard → Settings → API Keys</a> page.</p>
+
+    <h3>Rate Limits</h3>
+    <table>
+        <tr><th>Plan</th><th>Requests/min</th><th>Burst</th><th>Concurrent Streams</th></tr>
+        <tr><td>Free</td><td>60</td><td>10</td><td>2</td></tr>
+        <tr><td>Pro</td><td>600</td><td>100</td><td>10</td></tr>
+        <tr><td>Enterprise</td><td>6,000</td><td>1,000</td><td>100</td></tr>
+        <tr><td>Custom</td><td>Unlimited</td><td>Custom</td><td>Custom</td></tr>
+    </table>
+
+    <h2>Endpoints</h2>
+
+    <h3><span class="method post">POST</span> /v3/streams</h3>
+    <p>Create a new data stream.</p>
+    <h4>Request Body</h4>
+    <pre>{
+  "name": "user-events",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "user_id": {"type": "string"},
+      "event": {"type": "string"},
+      "timestamp": {"type": "string", "format": "date-time"},
+      "metadata": {"type": "object"}
+    },
+    "required": ["user_id", "event", "timestamp"]
+  },
+  "retention_days": 30,
+  "partitions": 8,
+  "replication_factor": 3,
+  "compression": "zstd"
+}</pre>
+    <h4>Response (201 Created)</h4>
+    <pre>{
+  "id": "strm_abc123",
+  "name": "user-events",
+  "status": "provisioning",
+  "created_at": "2025-06-01T10:00:00Z",
+  "endpoint": "wss://streams.example.com/v3/strm_abc123"
+}</pre>
+
+    <h3><span class="method get">GET</span> /v3/streams</h3>
+    <p>List all streams for the authenticated account.</p>
+    <h4>Query Parameters</h4>
+    <table>
+        <tr><th>Parameter</th><th>Type</th><th>Default</th><th>Description</th></tr>
+        <tr><td><code>limit</code></td><td>integer</td><td>20</td><td>Max results per page (1-100)</td></tr>
+        <tr><td><code>offset</code></td><td>integer</td><td>0</td><td>Pagination offset</td></tr>
+        <tr><td><code>status</code></td><td>string</td><td>all</td><td>Filter: active, paused, error</td></tr>
+        <tr><td><code>sort</code></td><td>string</td><td>created_at</td><td>Sort field</td></tr>
+        <tr><td><code>order</code></td><td>string</td><td>desc</td><td>Sort order: asc, desc</td></tr>
+    </table>
+
+    <h3><span class="method get">GET</span> /v3/streams/{stream_id}</h3>
+    <p>Get details for a specific stream.</p>
+
+    <h3><span class="method put">PUT</span> /v3/streams/{stream_id}</h3>
+    <p>Update stream configuration. Only <code>retention_days</code>, <code>partitions</code> (increase only), and <code>compression</code> can be modified.</p>
+
+    <h3><span class="method delete">DELETE</span> /v3/streams/{stream_id}</h3>
+    <p>Delete a stream. This action is irreversible. All data will be permanently deleted after a 24-hour grace period.</p>
+
+    <h3><span class="method post">POST</span> /v3/streams/{stream_id}/publish</h3>
+    <p>Publish events to a stream. Supports batch publishing up to 1,000 events per request.</p>
+    <pre>{
+  "events": [
+    {
+      "key": "user_123",
+      "data": {"user_id": "user_123", "event": "page_view", "timestamp": "2025-06-01T10:05:00Z"},
+      "headers": {"source": "web-app", "version": "2.1"}
+    }
+  ]
+}</pre>
+
+    <h3><span class="method post">POST</span> /v3/streams/{stream_id}/query</h3>
+    <p>Query stream data with SQL-like syntax.</p>
+    <pre>{
+  "query": "SELECT user_id, COUNT(*) as event_count FROM stream WHERE timestamp > NOW() - INTERVAL '1 hour' GROUP BY user_id ORDER BY event_count DESC LIMIT 10",
+  "format": "json"
+}</pre>
+
+    <h2>Webhooks</h2>
+    <p>Configure webhooks to receive real-time notifications for stream events.</p>
+    <table>
+        <tr><th>Event Type</th><th>Description</th><th>Payload</th></tr>
+        <tr><td><code>stream.created</code></td><td>New stream provisioned</td><td>Stream object</td></tr>
+        <tr><td><code>stream.error</code></td><td>Stream processing error</td><td>Error details + stream ID</td></tr>
+        <tr><td><code>stream.threshold</code></td><td>Volume threshold crossed</td><td>Metric + threshold value</td></tr>
+        <tr><td><code>stream.deleted</code></td><td>Stream deletion completed</td><td>Stream ID + deletion time</td></tr>
+        <tr><td><code>consumer.lag</code></td><td>Consumer group lag alert</td><td>Group + lag metrics</td></tr>
+    </table>
+
+    <h2>Error Codes</h2>
+    <table>
+        <tr><th>Code</th><th>HTTP Status</th><th>Description</th><th>Resolution</th></tr>
+        <tr><td>STREAM_NOT_FOUND</td><td>404</td><td>Stream does not exist</td><td>Check stream ID</td></tr>
+        <tr><td>RATE_LIMITED</td><td>429</td><td>Too many requests</td><td>Implement backoff</td></tr>
+        <tr><td>SCHEMA_VIOLATION</td><td>400</td><td>Event doesn't match schema</td><td>Validate event data</td></tr>
+        <tr><td>QUOTA_EXCEEDED</td><td>402</td><td>Plan quota exceeded</td><td>Upgrade plan</td></tr>
+        <tr><td>INTERNAL_ERROR</td><td>500</td><td>Server error</td><td>Retry with backoff</td></tr>
+        <tr><td>STREAM_PAUSED</td><td>409</td><td>Stream is paused</td><td>Resume stream first</td></tr>
+        <tr><td>BATCH_TOO_LARGE</td><td>413</td><td>Batch exceeds 1000 events</td><td>Split into smaller batches</td></tr>
+        <tr><td>INVALID_QUERY</td><td>400</td><td>SQL syntax error</td><td>Check query syntax</td></tr>
+    </table>
+
+    <h2>SDKs</h2>
+    <ul>
+        <li><strong>Python</strong>: <code>pip install streamkit</code></li>
+        <li><strong>Node.js</strong>: <code>npm install @streamkit/sdk</code></li>
+        <li><strong>Go</strong>: <code>go get github.com/streamkit/sdk-go</code></li>
+        <li><strong>Java</strong>: Maven artifact <code>com.streamkit:sdk:3.2.0</code></li>
+        <li><strong>Rust</strong>: <code>cargo add streamkit</code></li>
+    </ul>
+</body>
+</html>

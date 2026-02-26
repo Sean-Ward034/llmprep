@@ -1,0 +1,501 @@
+Date,Product,Region,Channel,Units,Revenue_USD,Discount_Pct,Customer_Segment,Deal_Size,Rep_ID
+2025-11-04,DataSync Enterprise,Canada,Direct,7,24742.49,5,Mid-Market,Medium,REP-704
+2025-07-02,QueryEngine,LATAM,Partner,8,3904.81,5,SMB,Medium,REP-559
+2025-10-09,StreamKit,EU-West,Partner,2,7231.58,5,Strategic,Large,REP-881
+2025-06-04,Widget Pro,MEA,OEM,24,41701.83,10,Enterprise,Large,REP-227
+2025-07-03,DataSync Enterprise,US-East,Partner,142,159881.26,25,Enterprise,Medium,REP-891
+2025-05-03,MetricsDash,EU-West,Online,60,221293.8,15,Enterprise,Mega,REP-463
+2025-04-22,QueryEngine,EU-Central,Partner,69,182367.55,25,SMB,Medium,REP-573
+2025-07-09,APIBridge,US-East,Online,164,538507.38,5,Enterprise,Small,REP-510
+2025-05-03,AuthShield,LATAM,Reseller,55,201081.05,20,Enterprise,Medium,REP-246
+2025-05-05,PipelineBuilder,LATAM,Online,64,191370.01,20,Enterprise,Mega,REP-324
+2025-03-17,CloudGuard,LATAM,OEM,127,63500.2,0,SMB,Medium,REP-165
+2025-07-13,DataSync Enterprise,Canada,Online,153,609650.02,20,Enterprise,Small,REP-887
+2025-11-11,StreamKit,Canada,Partner,29,41402.85,5,Strategic,Small,REP-619
+2025-02-28,MetricsDash,EU-West,OEM,161,184421.68,25,Mid-Market,Medium,REP-897
+2025-09-01,StreamKit,EU-Central,Direct,154,254804.16,0,SMB,Large,REP-346
+2025-10-03,AuthShield,Canada,Partner,22,80804.74,0,Mid-Market,Medium,REP-371
+2025-09-28,LogVault,APAC-South,Reseller,156,317819.76,5,Mid-Market,Large,REP-629
+2025-08-04,PipelineBuilder,EU-Central,Direct,64,66945.7,10,SMB,Medium,REP-172
+2025-12-21,QueryEngine,EU-Central,Online,16,18932.19,0,Enterprise,Small,REP-785
+2025-08-07,AuthShield,LATAM,Partner,139,78389.73,20,Strategic,Medium,REP-196
+2025-02-22,DataSync Enterprise,US-East,Reseller,111,170185.98,15,Strategic,Small,REP-845
+2025-06-26,LogVault,EU-West,Online,28,34070.58,5,Strategic,Medium,REP-573
+2025-04-28,QueryEngine,US-East,Direct,20,35895.96,20,SMB,Small,REP-871
+2025-04-06,CloudGuard,LATAM,Direct,105,244778.88,5,Strategic,Small,REP-499
+2025-05-26,APIBridge,APAC-East,Partner,117,128289.07,25,Strategic,Medium,REP-159
+2025-10-24,PipelineBuilder,MEA,OEM,139,44002.67,10,SMB,Small,REP-973
+2025-09-06,PipelineBuilder,US-West,Partner,15,72087.83,0,Mid-Market,Small,REP-513
+2025-02-19,PipelineBuilder,ANZ,OEM,64,186601.56,0,SMB,Mega,REP-423
+2025-05-07,CloudGuard,APAC-East,Reseller,172,587447.41,5,Enterprise,Mega,REP-423
+2025-02-01,QueryEngine,EU-Central,OEM,118,294975.3,20,SMB,Small,REP-371
+2025-03-12,AuthShield,Canada,Online,18,71318.68,10,Enterprise,Medium,REP-726
+2025-11-17,CloudGuard,APAC-East,Direct,3,8054.21,20,Enterprise,Small,REP-209
+2025-12-18,APIBridge,APAC-East,OEM,40,44739.96,20,Mid-Market,Large,REP-600
+2025-05-28,Widget Pro,APAC-South,Partner,14,6031.84,15,Enterprise,Small,REP-752
+2025-05-06,DataSync Enterprise,US-West,Partner,190,318784.72,25,Strategic,Small,REP-658
+2025-01-27,Widget Pro,APAC-East,Online,95,264741.37,5,Strategic,Medium,REP-915
+2025-01-12,QueryEngine,LATAM,OEM,54,138762.32,25,SMB,Large,REP-867
+2025-03-08,CloudGuard,APAC-South,Reseller,42,194800.57,5,Strategic,Small,REP-921
+2025-11-28,LogVault,US-East,Reseller,189,691151.87,10,Mid-Market,Small,REP-327
+2025-04-27,APIBridge,LATAM,Online,118,199628.71,5,Mid-Market,Small,REP-385
+2025-02-25,Widget Pro,US-West,Online,72,102998.78,20,Strategic,Large,REP-282
+2025-10-09,LogVault,ANZ,OEM,10,4986.04,15,Enterprise,Large,REP-218
+2025-07-19,QueryEngine,Canada,Partner,49,48174.71,25,Strategic,Small,REP-472
+2025-07-03,StreamKit,Canada,Online,171,630349.19,20,Enterprise,Small,REP-782
+2025-07-11,LogVault,LATAM,Partner,104,291298.31,20,Mid-Market,Medium,REP-730
+2025-10-10,APIBridge,LATAM,OEM,104,287278.08,0,Enterprise,Large,REP-721
+2025-11-11,CloudGuard,US-West,Online,120,201315.67,25,Mid-Market,Mega,REP-627
+2025-11-21,APIBridge,EU-West,Direct,159,258171.92,5,Enterprise,Medium,REP-147
+2025-04-16,PipelineBuilder,EU-Central,Reseller,157,668223.65,0,Strategic,Mega,REP-606
+2025-07-08,APIBridge,EU-West,OEM,38,125304.51,0,SMB,Mega,REP-575
+2025-01-18,AuthShield,Canada,OEM,64,293854.5,0,Strategic,Medium,REP-709
+2025-06-25,CloudGuard,MEA,Reseller,114,263564.78,25,Strategic,Mega,REP-365
+2025-04-27,StreamKit,MEA,Direct,164,186657.09,20,Strategic,Medium,REP-830
+2025-05-08,CloudGuard,EU-Central,Reseller,70,95896.94,20,SMB,Medium,REP-810
+2025-03-23,LogVault,US-East,Partner,55,17200.86,15,Enterprise,Mega,REP-952
+2025-07-13,AuthShield,US-East,Online,198,436767.18,25,SMB,Mega,REP-405
+2025-07-28,APIBridge,APAC-East,Reseller,108,219849.54,25,Mid-Market,Mega,REP-597
+2025-01-13,CloudGuard,ANZ,OEM,87,248540.36,15,Mid-Market,Mega,REP-127
+2025-07-19,AuthShield,EU-West,Direct,145,483118.08,0,Strategic,Medium,REP-366
+2025-07-11,LogVault,APAC-East,Direct,55,113887.7,10,Strategic,Large,REP-581
+2025-01-24,Widget Pro,US-East,Partner,139,38508.75,10,Mid-Market,Small,REP-304
+2025-01-20,AuthShield,APAC-East,Online,40,41847.11,15,SMB,Medium,REP-271
+2025-10-20,PipelineBuilder,US-East,Online,192,657710.37,5,Enterprise,Small,REP-689
+2025-11-13,DataSync Enterprise,APAC-East,OEM,102,456426.08,5,SMB,Medium,REP-924
+2025-02-26,DataSync Enterprise,Canada,Online,145,512087.87,10,Strategic,Large,REP-112
+2025-07-27,LogVault,EU-West,OEM,126,64912.13,10,Strategic,Medium,REP-766
+2025-05-20,MetricsDash,EU-Central,Direct,138,455648.94,15,Strategic,Large,REP-385
+2025-08-08,Widget Pro,MEA,Online,193,362887.39,20,Strategic,Large,REP-286
+2025-08-07,QueryEngine,US-East,OEM,91,327540.23,10,Enterprise,Large,REP-295
+2025-02-08,AuthShield,MEA,Direct,185,305149.24,20,Mid-Market,Mega,REP-195
+2025-05-08,QueryEngine,Canada,Online,104,325198.82,10,Enterprise,Mega,REP-535
+2025-12-18,StreamKit,EU-Central,Direct,85,129433.14,15,Enterprise,Large,REP-838
+2025-04-11,APIBridge,MEA,Online,31,86658.82,25,Mid-Market,Medium,REP-841
+2025-10-25,APIBridge,APAC-South,Partner,135,405555.41,0,Mid-Market,Large,REP-409
+2025-01-23,CloudGuard,MEA,Direct,137,92692.23,0,SMB,Large,REP-993
+2025-01-19,Widget Pro,APAC-East,Reseller,73,147276.6,15,Enterprise,Medium,REP-216
+2025-02-13,CloudGuard,ANZ,Online,126,39378.79,25,SMB,Medium,REP-187
+2025-04-04,AuthShield,MEA,Online,143,438609.03,20,Mid-Market,Mega,REP-980
+2025-10-14,APIBridge,APAC-East,Direct,79,226312.55,0,SMB,Medium,REP-260
+2025-04-06,PipelineBuilder,MEA,Online,142,59863.1,0,Strategic,Mega,REP-133
+2025-04-10,StreamKit,ANZ,Partner,181,222998.8,15,SMB,Medium,REP-535
+2025-02-18,Widget Pro,EU-West,Online,58,169952.34,10,Mid-Market,Small,REP-709
+2025-12-27,StreamKit,LATAM,Online,146,572088.96,15,SMB,Mega,REP-612
+2025-09-16,PipelineBuilder,APAC-East,Direct,113,50645.15,0,Strategic,Large,REP-193
+2025-04-22,CloudGuard,MEA,OEM,148,437526.26,0,Enterprise,Small,REP-767
+2025-08-09,AuthShield,APAC-South,Reseller,47,199145.96,15,Strategic,Small,REP-441
+2025-06-22,StreamKit,LATAM,OEM,27,104387.43,10,Strategic,Mega,REP-137
+2025-08-03,QueryEngine,MEA,Reseller,81,105249.32,0,Strategic,Small,REP-155
+2025-04-17,APIBridge,APAC-East,OEM,93,247587.58,15,Strategic,Small,REP-234
+2025-05-15,StreamKit,Canada,Direct,179,438428.89,0,Mid-Market,Medium,REP-665
+2025-07-03,CloudGuard,MEA,Online,58,287777.02,0,Strategic,Small,REP-621
+2025-12-09,QueryEngine,EU-West,Reseller,107,380342.31,15,Mid-Market,Mega,REP-295
+2025-10-17,MetricsDash,Canada,Online,192,845311.67,0,Enterprise,Mega,REP-940
+2025-01-10,AuthShield,Canada,Reseller,186,227344.3,20,Strategic,Medium,REP-453
+2025-06-18,APIBridge,ANZ,Reseller,196,456480.47,15,Enterprise,Medium,REP-339
+2025-07-02,CloudGuard,MEA,Direct,82,229781.87,25,Strategic,Mega,REP-229
+2025-09-19,Widget Pro,EU-West,Reseller,85,314649.95,15,SMB,Mega,REP-991
+2025-11-05,DataSync Enterprise,APAC-South,OEM,20,42731.61,10,Enterprise,Mega,REP-489
+2025-06-21,APIBridge,APAC-East,Partner,184,694857.28,15,SMB,Small,REP-864
+2025-02-14,CloudGuard,APAC-East,Direct,26,74369.68,25,SMB,Mega,REP-147
+2025-06-26,APIBridge,Canada,Reseller,15,20279.3,10,Strategic,Medium,REP-679
+2025-11-26,AuthShield,ANZ,Partner,47,41896.7,0,Strategic,Medium,REP-337
+2025-08-21,StreamKit,Canada,Partner,66,115081.26,25,SMB,Mega,REP-175
+2025-08-12,StreamKit,EU-Central,Reseller,151,196479.92,15,Enterprise,Mega,REP-973
+2025-08-04,Widget Pro,LATAM,Online,61,106382.65,10,Enterprise,Large,REP-108
+2025-10-28,APIBridge,ANZ,Online,176,686865.08,0,Strategic,Large,REP-324
+2025-11-07,Widget Pro,APAC-East,Reseller,159,153904.37,25,Mid-Market,Small,REP-134
+2025-10-12,CloudGuard,EU-Central,Partner,188,118522.64,10,Enterprise,Mega,REP-905
+2025-09-12,AuthShield,APAC-East,Online,136,310147.41,10,Mid-Market,Large,REP-923
+2025-02-15,DataSync Enterprise,LATAM,Direct,20,14188.2,5,Strategic,Large,REP-370
+2025-09-04,MetricsDash,US-West,Partner,117,164487.29,25,Enterprise,Mega,REP-582
+2025-01-20,AuthShield,APAC-East,Reseller,144,192802.3,20,Mid-Market,Small,REP-219
+2025-03-02,APIBridge,Canada,Partner,10,13231.14,15,SMB,Small,REP-497
+2025-08-12,LogVault,US-West,Reseller,172,612677.09,25,Strategic,Medium,REP-730
+2025-07-09,APIBridge,APAC-South,Direct,9,29641.9,5,Strategic,Mega,REP-802
+2025-06-18,DataSync Enterprise,MEA,Direct,166,257568.95,15,Enterprise,Medium,REP-778
+2025-04-21,APIBridge,EU-West,OEM,164,492963.09,0,SMB,Large,REP-310
+2025-02-27,MetricsDash,EU-West,OEM,196,437993.92,20,Mid-Market,Medium,REP-102
+2025-05-28,DataSync Enterprise,US-East,Partner,38,150123.11,20,Enterprise,Medium,REP-115
+2025-06-26,Widget Pro,EU-West,Reseller,61,180854.14,0,Mid-Market,Large,REP-638
+2025-02-24,QueryEngine,EU-Central,OEM,17,36833.49,10,SMB,Mega,REP-144
+2025-12-26,AuthShield,LATAM,Reseller,169,377969.51,15,SMB,Small,REP-802
+2025-02-16,PipelineBuilder,EU-West,Direct,183,833202.5,0,SMB,Large,REP-229
+2025-05-20,PipelineBuilder,Canada,Online,163,360338.62,25,Enterprise,Mega,REP-564
+2025-09-20,LogVault,MEA,Partner,111,45032.7,25,SMB,Medium,REP-523
+2025-06-27,LogVault,APAC-South,Online,117,177580.94,25,SMB,Large,REP-483
+2025-03-22,DataSync Enterprise,APAC-South,Partner,122,46641.8,0,SMB,Mega,REP-669
+2025-01-19,MetricsDash,LATAM,Direct,144,305675.94,25,SMB,Mega,REP-394
+2025-10-10,AuthShield,EU-Central,Direct,91,40973.5,20,Mid-Market,Medium,REP-458
+2025-09-12,QueryEngine,ANZ,OEM,30,91797.55,20,Mid-Market,Mega,REP-791
+2025-11-18,CloudGuard,APAC-East,Online,7,16088.76,25,Enterprise,Small,REP-447
+2025-06-01,CloudGuard,US-East,Direct,47,163778.85,20,Strategic,Small,REP-864
+2025-09-07,StreamKit,APAC-South,OEM,97,185789.31,10,Mid-Market,Large,REP-710
+2025-02-02,StreamKit,MEA,Reseller,40,26533.73,20,SMB,Small,REP-597
+2025-10-15,LogVault,US-West,Online,107,120026.26,20,SMB,Large,REP-794
+2025-11-19,LogVault,ANZ,Direct,125,299061.43,10,SMB,Medium,REP-107
+2025-04-10,DataSync Enterprise,US-East,Reseller,55,190494.82,10,Enterprise,Large,REP-864
+2025-07-06,DataSync Enterprise,LATAM,Direct,34,49266.68,25,Mid-Market,Large,REP-546
+2025-01-15,LogVault,APAC-East,Direct,20,69079.11,20,Strategic,Mega,REP-514
+2025-01-11,DataSync Enterprise,LATAM,Direct,44,141382.37,20,Strategic,Large,REP-349
+2025-07-19,APIBridge,APAC-South,Partner,103,231448.46,15,Enterprise,Large,REP-178
+2025-09-21,CloudGuard,EU-Central,Direct,30,76280.08,5,Enterprise,Large,REP-249
+2025-05-07,AuthShield,MEA,OEM,45,102325.78,25,SMB,Medium,REP-878
+2025-10-15,CloudGuard,MEA,Direct,175,647438.9,20,Enterprise,Large,REP-580
+2025-08-21,QueryEngine,US-West,Online,78,249090.31,20,SMB,Large,REP-572
+2025-08-02,PipelineBuilder,ANZ,OEM,15,25315.89,10,SMB,Small,REP-493
+2025-08-19,PipelineBuilder,EU-Central,Online,142,508371.98,25,SMB,Mega,REP-719
+2025-08-17,DataSync Enterprise,Canada,Partner,39,158812.56,15,SMB,Large,REP-140
+2025-04-23,MetricsDash,APAC-East,Reseller,113,447966.43,20,Mid-Market,Large,REP-518
+2025-06-22,MetricsDash,US-West,OEM,154,35713.68,25,Enterprise,Small,REP-794
+2025-07-10,DataSync Enterprise,ANZ,Partner,65,177083.48,25,Mid-Market,Large,REP-458
+2025-05-21,QueryEngine,LATAM,Online,179,565853.11,5,SMB,Large,REP-932
+2025-03-22,QueryEngine,APAC-South,Direct,180,560701.83,25,SMB,Mega,REP-471
+2025-05-06,CloudGuard,EU-West,Direct,55,81418.64,15,Mid-Market,Medium,REP-402
+2025-02-17,PipelineBuilder,EU-West,OEM,198,404196.99,25,SMB,Large,REP-485
+2025-03-06,Widget Pro,LATAM,Online,47,156609.94,20,Mid-Market,Mega,REP-792
+2025-12-08,QueryEngine,EU-Central,Online,114,262694.25,25,Strategic,Medium,REP-928
+2025-08-27,StreamKit,LATAM,OEM,50,74832.51,20,Strategic,Mega,REP-640
+2025-07-06,AuthShield,APAC-South,OEM,52,198401.92,5,Enterprise,Small,REP-205
+2025-12-28,StreamKit,MEA,OEM,133,510313.65,10,SMB,Medium,REP-250
+2025-07-03,Widget Pro,LATAM,OEM,57,209954.54,10,SMB,Mega,REP-482
+2025-04-13,MetricsDash,EU-West,Partner,21,40022.17,0,Enterprise,Small,REP-139
+2025-05-27,PipelineBuilder,US-East,Direct,121,401814.2,5,Strategic,Mega,REP-119
+2025-05-07,StreamKit,EU-Central,Online,39,80922.49,25,Strategic,Small,REP-224
+2025-01-08,DataSync Enterprise,MEA,OEM,108,277586.88,20,Strategic,Small,REP-648
+2025-01-21,LogVault,US-East,OEM,132,286752.01,25,Mid-Market,Large,REP-461
+2025-04-19,DataSync Enterprise,Canada,OEM,107,78420.61,25,SMB,Large,REP-619
+2025-09-18,MetricsDash,APAC-East,Direct,6,10112.0,15,SMB,Mega,REP-465
+2025-02-12,CloudGuard,US-East,Online,62,171029.7,25,SMB,Large,REP-659
+2025-06-27,CloudGuard,EU-West,Direct,165,113440.53,25,Strategic,Mega,REP-833
+2025-08-02,StreamKit,Canada,Reseller,76,75656.6,5,SMB,Large,REP-934
+2025-09-16,MetricsDash,US-East,Online,65,11274.55,25,Mid-Market,Large,REP-379
+2025-02-26,MetricsDash,EU-West,Reseller,95,178692.43,15,Strategic,Mega,REP-808
+2025-08-12,LogVault,ANZ,Partner,133,182245.57,0,Strategic,Small,REP-658
+2025-05-11,AuthShield,ANZ,Reseller,27,9038.41,25,Enterprise,Large,REP-270
+2025-12-15,StreamKit,US-East,Direct,90,152772.2,25,Enterprise,Mega,REP-787
+2025-11-13,CloudGuard,ANZ,Reseller,94,182579.19,25,Mid-Market,Small,REP-135
+2025-03-03,PipelineBuilder,US-East,OEM,61,214310.45,10,Enterprise,Mega,REP-257
+2025-11-15,LogVault,APAC-South,Online,95,179689.29,0,Mid-Market,Large,REP-355
+2025-02-01,StreamKit,APAC-East,Reseller,189,146805.8,20,Strategic,Small,REP-319
+2025-10-10,CloudGuard,US-West,Reseller,178,693948.13,15,Mid-Market,Small,REP-276
+2025-12-15,QueryEngine,Canada,Online,23,84084.24,10,Enterprise,Small,REP-407
+2025-03-23,QueryEngine,EU-Central,Direct,182,633394.95,25,Mid-Market,Large,REP-305
+2025-03-08,QueryEngine,EU-West,OEM,127,18298.76,20,Enterprise,Mega,REP-188
+2025-02-10,LogVault,ANZ,Direct,102,382346.65,25,Strategic,Mega,REP-228
+2025-06-21,QueryEngine,ANZ,Partner,19,32452.58,25,Enterprise,Medium,REP-886
+2025-03-14,StreamKit,EU-West,Partner,129,587985.32,0,SMB,Medium,REP-430
+2025-12-08,StreamKit,EU-Central,OEM,89,337490.96,20,Enterprise,Small,REP-381
+2025-03-21,CloudGuard,ANZ,OEM,78,241130.76,0,Mid-Market,Medium,REP-445
+2025-10-02,PipelineBuilder,LATAM,OEM,8,2712.32,25,Enterprise,Medium,REP-754
+2025-01-16,APIBridge,LATAM,Online,161,332135.98,25,Enterprise,Mega,REP-564
+2025-02-23,APIBridge,APAC-South,OEM,16,11321.98,15,Strategic,Mega,REP-247
+2025-06-28,MetricsDash,Canada,OEM,184,270030.03,10,Strategic,Medium,REP-208
+2025-06-08,DataSync Enterprise,US-East,Online,120,66961.31,15,Mid-Market,Medium,REP-493
+2025-10-14,APIBridge,EU-West,Reseller,64,292769.93,5,Enterprise,Large,REP-627
+2025-08-16,APIBridge,EU-Central,OEM,79,198446.65,0,Strategic,Mega,REP-461
+2025-01-02,QueryEngine,US-East,Direct,73,136860.02,25,Strategic,Large,REP-541
+2025-03-09,LogVault,US-East,OEM,187,295742.26,15,Enterprise,Small,REP-675
+2025-04-12,PipelineBuilder,ANZ,Direct,142,178464.41,15,Strategic,Large,REP-231
+2025-02-13,APIBridge,ANZ,OEM,96,344281.65,10,Enterprise,Medium,REP-511
+2025-09-02,QueryEngine,MEA,Partner,12,2183.62,25,Enterprise,Mega,REP-720
+2025-09-05,PipelineBuilder,APAC-East,OEM,84,352316.81,10,Mid-Market,Mega,REP-444
+2025-09-27,Widget Pro,APAC-South,Online,131,263809.32,25,Enterprise,Mega,REP-789
+2025-02-14,StreamKit,ANZ,OEM,150,176963.09,25,SMB,Mega,REP-333
+2025-12-02,APIBridge,US-East,OEM,150,291386.58,20,Strategic,Medium,REP-817
+2025-02-07,APIBridge,LATAM,OEM,5,9490.85,15,Mid-Market,Mega,REP-893
+2025-10-16,QueryEngine,APAC-South,Reseller,189,517478.28,25,Mid-Market,Medium,REP-638
+2025-07-11,StreamKit,ANZ,Reseller,45,83712.04,20,Enterprise,Large,REP-296
+2025-04-09,AuthShield,APAC-South,Reseller,143,196598.37,10,Enterprise,Medium,REP-457
+2025-09-26,MetricsDash,EU-West,Online,185,259668.74,0,Strategic,Mega,REP-143
+2025-05-23,APIBridge,EU-Central,OEM,21,31496.31,15,Enterprise,Mega,REP-377
+2025-09-23,Widget Pro,Canada,Partner,70,40852.06,20,Mid-Market,Medium,REP-753
+2025-04-02,CloudGuard,US-East,OEM,26,40868.91,25,Strategic,Small,REP-261
+2025-07-21,StreamKit,US-East,Direct,122,279709.6,5,Enterprise,Large,REP-767
+2025-10-08,CloudGuard,US-East,Reseller,137,507790.27,0,Mid-Market,Mega,REP-906
+2025-08-06,StreamKit,ANZ,OEM,192,831608.7,10,SMB,Small,REP-209
+2025-06-10,QueryEngine,MEA,Online,117,462949.57,20,Strategic,Medium,REP-297
+2025-02-11,Widget Pro,APAC-South,Online,42,115574.77,25,Enterprise,Medium,REP-681
+2025-11-25,QueryEngine,APAC-South,Direct,50,34451.24,25,Strategic,Mega,REP-510
+2025-11-04,Widget Pro,APAC-East,Reseller,48,200301.14,15,Enterprise,Medium,REP-341
+2025-08-25,MetricsDash,EU-Central,Direct,69,296370.53,10,SMB,Large,REP-783
+2025-02-15,StreamKit,APAC-South,OEM,79,49805.45,25,Enterprise,Small,REP-326
+2025-04-05,QueryEngine,MEA,OEM,123,74562.77,25,Enterprise,Mega,REP-921
+2025-11-27,QueryEngine,APAC-South,Direct,56,160490.61,25,SMB,Mega,REP-677
+2025-02-02,MetricsDash,Canada,Reseller,141,605359.75,5,Mid-Market,Medium,REP-219
+2025-11-07,AuthShield,EU-West,OEM,184,540330.91,0,Strategic,Small,REP-525
+2025-08-19,LogVault,APAC-East,Direct,15,31680.52,25,Enterprise,Small,REP-863
+2025-04-19,DataSync Enterprise,MEA,Direct,19,4688.56,10,SMB,Small,REP-393
+2025-07-06,LogVault,MEA,Reseller,197,106435.09,25,Strategic,Large,REP-484
+2025-02-22,CloudGuard,Canada,Reseller,170,707215.11,5,Enterprise,Small,REP-641
+2025-03-24,QueryEngine,LATAM,OEM,58,242577.28,0,Enterprise,Mega,REP-488
+2025-04-08,Widget Pro,LATAM,OEM,118,187282.71,10,Mid-Market,Small,REP-884
+2025-01-08,PipelineBuilder,US-East,Partner,53,16243.01,20,SMB,Mega,REP-858
+2025-01-13,QueryEngine,APAC-East,Partner,113,129891.29,5,SMB,Medium,REP-935
+2025-12-19,StreamKit,EU-West,OEM,82,178872.77,25,Enterprise,Medium,REP-326
+2025-07-10,QueryEngine,MEA,Direct,71,19978.85,20,Mid-Market,Mega,REP-452
+2025-11-22,CloudGuard,APAC-East,Reseller,98,347484.43,10,Strategic,Mega,REP-288
+2025-09-16,Widget Pro,Canada,Reseller,62,237386.46,10,Mid-Market,Mega,REP-526
+2025-09-17,DataSync Enterprise,MEA,Online,35,62139.24,10,Mid-Market,Large,REP-194
+2025-09-24,APIBridge,ANZ,OEM,49,12707.68,15,SMB,Small,REP-322
+2025-08-07,DataSync Enterprise,MEA,Partner,86,133367.14,0,Mid-Market,Medium,REP-812
+2025-10-23,LogVault,MEA,OEM,53,101371.1,5,Enterprise,Large,REP-764
+2025-06-10,AuthShield,APAC-South,Partner,67,104232.22,15,Strategic,Small,REP-479
+2025-06-14,StreamKit,Canada,OEM,12,32313.27,5,Mid-Market,Small,REP-693
+2025-12-14,PipelineBuilder,EU-Central,Reseller,76,55023.46,10,Mid-Market,Mega,REP-663
+2025-11-22,CloudGuard,APAC-South,Partner,87,97892.6,15,Strategic,Mega,REP-243
+2025-12-18,DataSync Enterprise,US-East,Direct,126,96872.48,20,SMB,Small,REP-522
+2025-03-27,APIBridge,Canada,Reseller,162,145264.83,25,Mid-Market,Small,REP-482
+2025-01-20,Widget Pro,US-East,OEM,164,439577.19,20,Strategic,Mega,REP-664
+2025-07-01,QueryEngine,LATAM,Partner,5,12017.78,10,Enterprise,Small,REP-209
+2025-02-17,StreamKit,LATAM,Direct,39,38775.23,20,Enterprise,Large,REP-482
+2025-07-15,DataSync Enterprise,US-East,Direct,145,136359.35,25,Mid-Market,Large,REP-515
+2025-07-13,DataSync Enterprise,MEA,Reseller,142,256262.99,25,SMB,Medium,REP-760
+2025-06-19,PipelineBuilder,MEA,Online,25,111980.41,0,Mid-Market,Medium,REP-147
+2025-02-22,MetricsDash,US-East,Partner,72,259291.74,20,SMB,Medium,REP-701
+2025-03-25,PipelineBuilder,EU-Central,OEM,183,752764.43,0,Enterprise,Medium,REP-954
+2025-07-22,QueryEngine,APAC-South,Direct,139,176397.54,25,Mid-Market,Small,REP-200
+2025-07-08,Widget Pro,APAC-East,Reseller,20,27774.95,20,Strategic,Large,REP-602
+2025-04-12,DataSync Enterprise,ANZ,Online,142,568334.91,15,Mid-Market,Mega,REP-917
+2025-04-23,LogVault,APAC-South,Online,19,8232.39,5,Strategic,Medium,REP-209
+2025-02-01,DataSync Enterprise,EU-West,Reseller,79,160077.56,10,SMB,Medium,REP-559
+2025-09-18,QueryEngine,US-West,OEM,132,273216.06,0,SMB,Large,REP-712
+2025-06-28,QueryEngine,EU-Central,OEM,99,9347.89,15,Strategic,Small,REP-633
+2025-03-22,AuthShield,EU-West,Direct,98,78412.77,10,Enterprise,Large,REP-271
+2025-07-09,APIBridge,MEA,OEM,108,165647.55,0,Enterprise,Large,REP-731
+2025-04-15,PipelineBuilder,LATAM,Online,28,20178.85,0,Strategic,Large,REP-550
+2025-06-14,PipelineBuilder,EU-Central,Reseller,167,773008.74,5,Enterprise,Large,REP-421
+2025-03-13,MetricsDash,LATAM,Online,82,91799.1,25,Strategic,Medium,REP-936
+2025-07-12,AuthShield,EU-Central,Reseller,30,132916.37,5,Mid-Market,Small,REP-916
+2025-05-27,StreamKit,EU-Central,Online,178,59360.35,15,Strategic,Medium,REP-774
+2025-03-23,PipelineBuilder,LATAM,OEM,109,431196.37,0,Strategic,Mega,REP-618
+2025-12-14,APIBridge,APAC-South,Partner,140,29230.43,10,SMB,Small,REP-762
+2025-10-02,LogVault,US-West,Direct,145,534926.09,25,Strategic,Large,REP-200
+2025-05-08,MetricsDash,LATAM,Reseller,131,392677.48,20,Mid-Market,Mega,REP-890
+2025-11-19,DataSync Enterprise,APAC-East,Reseller,177,402599.79,10,SMB,Mega,REP-187
+2025-02-27,APIBridge,Canada,Reseller,187,126442.46,10,Enterprise,Mega,REP-456
+2025-08-04,StreamKit,US-East,Direct,113,348072.72,15,Enterprise,Small,REP-123
+2025-06-21,QueryEngine,EU-West,Online,28,90488.94,5,Mid-Market,Medium,REP-673
+2025-07-15,LogVault,LATAM,Direct,60,179950.1,25,Mid-Market,Medium,REP-855
+2025-10-07,APIBridge,APAC-East,Direct,116,293966.6,15,SMB,Medium,REP-691
+2025-02-26,DataSync Enterprise,APAC-East,Reseller,138,121151.04,10,Mid-Market,Mega,REP-640
+2025-11-11,MetricsDash,MEA,OEM,153,256688.05,15,SMB,Large,REP-276
+2025-11-23,MetricsDash,US-West,Partner,77,283204.69,20,SMB,Medium,REP-412
+2025-02-06,PipelineBuilder,EU-West,OEM,96,267456.84,20,Strategic,Mega,REP-492
+2025-07-06,AuthShield,APAC-East,Partner,125,299599.98,25,Mid-Market,Medium,REP-291
+2025-06-27,CloudGuard,EU-Central,Reseller,116,325318.69,10,SMB,Mega,REP-675
+2025-09-21,AuthShield,EU-West,Direct,127,224019.46,15,Strategic,Mega,REP-678
+2025-01-26,QueryEngine,APAC-East,Partner,195,222616.11,0,Enterprise,Medium,REP-899
+2025-08-19,StreamKit,Canada,Online,191,628961.89,15,SMB,Small,REP-655
+2025-01-25,APIBridge,APAC-East,Direct,185,392759.87,5,Strategic,Small,REP-560
+2025-05-12,PipelineBuilder,APAC-South,OEM,23,51138.11,0,Mid-Market,Medium,REP-747
+2025-07-06,PipelineBuilder,APAC-South,OEM,158,110955.88,5,Mid-Market,Small,REP-387
+2025-10-18,PipelineBuilder,APAC-East,OEM,44,54518.82,25,Enterprise,Large,REP-795
+2025-02-05,CloudGuard,EU-Central,Partner,193,760259.94,0,Enterprise,Medium,REP-828
+2025-06-27,CloudGuard,ANZ,Online,64,183326.12,25,Strategic,Mega,REP-742
+2025-07-13,MetricsDash,MEA,Reseller,116,49161.44,0,Strategic,Large,REP-435
+2025-10-01,DataSync Enterprise,Canada,Reseller,199,844452.17,0,Strategic,Large,REP-323
+2025-07-27,QueryEngine,ANZ,Partner,55,123692.53,10,Enterprise,Large,REP-679
+2025-08-26,AuthShield,US-East,Direct,88,393893.77,0,SMB,Small,REP-978
+2025-03-15,StreamKit,EU-West,Online,117,5305.25,15,Mid-Market,Medium,REP-195
+2025-11-12,LogVault,APAC-East,Partner,65,22326.6,25,Mid-Market,Small,REP-539
+2025-11-03,CloudGuard,ANZ,Partner,181,89613.33,5,Strategic,Small,REP-631
+2025-11-15,CloudGuard,MEA,Direct,3,242.76,10,SMB,Mega,REP-334
+2025-07-03,StreamKit,EU-West,Reseller,188,759423.43,0,Enterprise,Large,REP-892
+2025-03-21,AuthShield,APAC-South,Partner,174,105391.48,20,SMB,Medium,REP-743
+2025-12-05,DataSync Enterprise,EU-West,Direct,106,279271.82,15,Mid-Market,Small,REP-703
+2025-12-13,StreamKit,US-West,Partner,90,390264.57,10,Mid-Market,Medium,REP-666
+2025-10-20,APIBridge,Canada,OEM,185,424240.04,25,SMB,Large,REP-621
+2025-04-24,LogVault,US-West,Partner,101,152806.25,0,Mid-Market,Mega,REP-611
+2025-11-20,CloudGuard,LATAM,OEM,19,50635.35,0,Enterprise,Large,REP-530
+2025-06-18,PipelineBuilder,US-West,Direct,175,134650.44,15,SMB,Small,REP-368
+2025-04-02,LogVault,LATAM,Direct,16,64545.14,15,Enterprise,Mega,REP-755
+2025-09-18,QueryEngine,EU-Central,Partner,158,127311.38,0,Enterprise,Small,REP-649
+2025-06-13,LogVault,EU-Central,Direct,151,361239.93,25,SMB,Large,REP-350
+2025-02-14,CloudGuard,US-West,Direct,30,55060.57,20,SMB,Large,REP-824
+2025-03-23,MetricsDash,EU-West,Online,3,2324.62,10,Enterprise,Medium,REP-850
+2025-02-25,StreamKit,ANZ,Direct,8,11616.47,15,Enterprise,Small,REP-608
+2025-08-17,CloudGuard,APAC-East,Direct,93,24137.12,20,Mid-Market,Large,REP-687
+2025-11-24,Widget Pro,EU-Central,Direct,30,28334.45,20,SMB,Small,REP-583
+2025-06-13,MetricsDash,EU-Central,Reseller,39,36498.41,0,Strategic,Medium,REP-837
+2025-06-09,APIBridge,Canada,Direct,20,57582.06,0,SMB,Medium,REP-510
+2025-02-15,QueryEngine,MEA,Direct,73,254847.74,10,Enterprise,Small,REP-477
+2025-04-10,MetricsDash,ANZ,Reseller,145,427747.54,25,Mid-Market,Mega,REP-891
+2025-04-24,LogVault,US-East,Partner,140,507313.47,5,Mid-Market,Small,REP-654
+2025-06-21,StreamKit,US-West,Partner,178,703619.73,10,SMB,Mega,REP-642
+2025-04-14,Widget Pro,EU-Central,OEM,126,575501.57,5,Enterprise,Small,REP-522
+2025-12-12,LogVault,US-West,OEM,118,575137.45,0,SMB,Medium,REP-681
+2025-01-14,MetricsDash,LATAM,Online,170,778895.19,5,Enterprise,Large,REP-425
+2025-08-09,CloudGuard,US-West,Partner,60,23923.06,5,Mid-Market,Small,REP-560
+2025-08-11,StreamKit,MEA,Online,105,61202.63,10,Mid-Market,Mega,REP-972
+2025-02-03,MetricsDash,EU-West,Direct,41,149356.61,10,SMB,Medium,REP-828
+2025-04-12,CloudGuard,US-East,Reseller,102,198259.34,25,Enterprise,Large,REP-975
+2025-08-18,CloudGuard,US-West,Direct,192,532434.9,0,Strategic,Small,REP-163
+2025-04-05,DataSync Enterprise,US-East,Direct,51,189437.72,10,SMB,Large,REP-302
+2025-11-15,AuthShield,US-East,Partner,33,15007.24,10,SMB,Small,REP-687
+2025-07-27,CloudGuard,APAC-South,Partner,186,372975.29,0,Strategic,Mega,REP-291
+2025-05-09,AuthShield,LATAM,OEM,115,508639.0,0,Mid-Market,Large,REP-590
+2025-01-03,QueryEngine,US-East,Reseller,72,119090.65,15,Mid-Market,Medium,REP-900
+2025-12-12,LogVault,APAC-East,Partner,123,287027.72,15,Enterprise,Large,REP-126
+2025-06-20,QueryEngine,APAC-South,OEM,57,10006.17,10,SMB,Mega,REP-338
+2025-03-04,PipelineBuilder,LATAM,Online,64,190165.18,10,SMB,Medium,REP-959
+2025-03-06,MetricsDash,ANZ,OEM,61,136470.95,25,Enterprise,Small,REP-245
+2025-10-07,DataSync Enterprise,US-East,Partner,127,329798.8,5,Strategic,Small,REP-716
+2025-04-01,MetricsDash,EU-West,Online,135,293549.53,10,Mid-Market,Medium,REP-160
+2025-01-05,DataSync Enterprise,APAC-South,Reseller,151,507561.52,5,SMB,Large,REP-700
+2025-02-11,MetricsDash,EU-West,OEM,78,122034.24,5,Strategic,Mega,REP-810
+2025-10-26,StreamKit,APAC-East,Partner,92,85009.78,20,Mid-Market,Mega,REP-281
+2025-12-01,PipelineBuilder,APAC-South,OEM,180,726146.55,15,SMB,Medium,REP-326
+2025-11-19,APIBridge,APAC-South,Online,27,120211.41,5,Enterprise,Small,REP-271
+2025-11-03,Widget Pro,APAC-East,Partner,182,459543.85,25,Enterprise,Mega,REP-355
+2025-12-03,LogVault,MEA,Reseller,90,118841.11,0,SMB,Small,REP-270
+2025-07-16,PipelineBuilder,EU-Central,Partner,97,147469.6,15,SMB,Mega,REP-562
+2025-02-26,DataSync Enterprise,APAC-South,Partner,9,12229.36,10,Enterprise,Small,REP-484
+2025-03-24,Widget Pro,LATAM,Partner,20,55157.58,0,Enterprise,Mega,REP-721
+2025-07-06,QueryEngine,Canada,Online,14,7331.31,5,Mid-Market,Mega,REP-776
+2025-05-10,Widget Pro,APAC-South,Direct,61,27210.04,15,Strategic,Medium,REP-537
+2025-02-10,Widget Pro,EU-Central,Partner,170,454336.93,15,Mid-Market,Small,REP-753
+2025-05-03,AuthShield,APAC-East,Direct,122,464086.93,10,Strategic,Mega,REP-757
+2025-09-13,AuthShield,US-East,Online,48,76971.31,15,Enterprise,Medium,REP-550
+2025-08-09,DataSync Enterprise,US-West,Online,58,194580.25,20,SMB,Medium,REP-927
+2025-09-14,QueryEngine,LATAM,OEM,194,460811.44,20,SMB,Mega,REP-803
+2025-08-19,QueryEngine,ANZ,OEM,61,146857.4,0,Strategic,Small,REP-919
+2025-10-22,APIBridge,EU-Central,Partner,159,105398.87,15,Mid-Market,Medium,REP-143
+2025-07-03,MetricsDash,US-West,Direct,175,289432.05,25,Mid-Market,Large,REP-497
+2025-09-13,PipelineBuilder,ANZ,OEM,142,212701.08,10,Strategic,Small,REP-900
+2025-07-04,PipelineBuilder,US-West,Online,107,67686.44,20,SMB,Small,REP-988
+2025-09-12,Widget Pro,EU-West,Online,106,107919.37,25,Strategic,Mega,REP-512
+2025-03-20,MetricsDash,EU-Central,Direct,156,453495.14,15,SMB,Mega,REP-863
+2025-08-09,AuthShield,US-West,Partner,96,12973.2,10,Enterprise,Large,REP-237
+2025-05-24,PipelineBuilder,US-West,Partner,114,398237.07,10,Enterprise,Mega,REP-552
+2025-04-27,QueryEngine,EU-West,Direct,105,312284.85,20,Enterprise,Small,REP-418
+2025-12-17,APIBridge,EU-Central,Direct,104,60026.02,20,SMB,Medium,REP-355
+2025-01-15,MetricsDash,MEA,OEM,13,44793.97,25,Mid-Market,Large,REP-506
+2025-11-04,CloudGuard,MEA,OEM,175,31702.83,10,Strategic,Mega,REP-664
+2025-06-12,Widget Pro,LATAM,Direct,42,158623.4,10,SMB,Large,REP-266
+2025-10-25,StreamKit,LATAM,OEM,55,177073.89,25,Mid-Market,Medium,REP-120
+2025-11-01,APIBridge,APAC-East,OEM,122,417423.13,25,Mid-Market,Small,REP-924
+2025-05-23,AuthShield,APAC-East,Partner,182,499923.03,15,Strategic,Large,REP-577
+2025-05-22,QueryEngine,APAC-South,OEM,134,470445.56,15,SMB,Small,REP-762
+2025-10-20,MetricsDash,APAC-East,Online,73,111504.28,0,Strategic,Small,REP-982
+2025-05-09,CloudGuard,Canada,Partner,168,449809.19,25,Enterprise,Medium,REP-158
+2025-10-13,StreamKit,APAC-East,Reseller,170,263559.83,5,SMB,Mega,REP-514
+2025-07-24,APIBridge,Canada,Reseller,10,23487.74,20,Mid-Market,Large,REP-787
+2025-06-17,DataSync Enterprise,MEA,Partner,77,244561.16,25,Mid-Market,Large,REP-858
+2025-05-24,APIBridge,APAC-South,Partner,144,523457.7,5,Enterprise,Small,REP-862
+2025-05-14,DataSync Enterprise,MEA,Direct,85,128508.31,20,Enterprise,Mega,REP-987
+2025-11-19,QueryEngine,US-West,Reseller,149,703919.19,0,Strategic,Medium,REP-642
+2025-05-14,MetricsDash,LATAM,OEM,14,57997.35,5,Mid-Market,Medium,REP-568
+2025-03-11,CloudGuard,APAC-South,Direct,184,173468.95,0,Strategic,Large,REP-104
+2025-08-09,DataSync Enterprise,EU-West,OEM,54,195858.62,5,Mid-Market,Mega,REP-544
+2025-11-14,Widget Pro,Canada,Partner,104,192152.96,15,Strategic,Small,REP-848
+2025-06-01,Widget Pro,EU-Central,Partner,83,252080.71,20,Mid-Market,Small,REP-810
+2025-06-10,DataSync Enterprise,US-East,Online,34,15188.64,20,Enterprise,Medium,REP-397
+2025-08-24,MetricsDash,MEA,Online,134,362044.95,10,Strategic,Medium,REP-868
+2025-04-06,Widget Pro,ANZ,OEM,104,14293.14,5,Mid-Market,Medium,REP-273
+2025-02-12,QueryEngine,ANZ,Direct,183,598442.0,0,Strategic,Large,REP-708
+2025-01-22,LogVault,MEA,Reseller,28,91984.47,0,SMB,Small,REP-226
+2025-09-09,LogVault,US-West,OEM,122,408460.3,5,SMB,Large,REP-376
+2025-10-20,DataSync Enterprise,US-West,Reseller,180,131212.7,0,SMB,Large,REP-303
+2025-10-07,LogVault,APAC-East,Partner,200,216291.18,20,Mid-Market,Large,REP-140
+2025-09-16,Widget Pro,US-East,Direct,54,158658.37,15,Enterprise,Medium,REP-213
+2025-10-22,StreamKit,EU-Central,Reseller,127,100109.69,0,SMB,Small,REP-403
+2025-05-15,MetricsDash,APAC-South,Reseller,13,6719.07,5,SMB,Large,REP-856
+2025-02-04,MetricsDash,APAC-South,Reseller,195,869104.36,0,Mid-Market,Medium,REP-736
+2025-05-24,LogVault,LATAM,Reseller,24,40920.76,10,Mid-Market,Small,REP-378
+2025-07-23,CloudGuard,US-East,Partner,123,369876.42,25,Mid-Market,Small,REP-206
+2025-07-19,PipelineBuilder,LATAM,Online,124,373972.59,25,Strategic,Medium,REP-726
+2025-01-28,AuthShield,US-West,Reseller,176,581559.49,25,Mid-Market,Mega,REP-551
+2025-01-03,QueryEngine,Canada,OEM,67,220571.98,0,Mid-Market,Large,REP-197
+2025-07-22,QueryEngine,ANZ,Direct,187,215500.77,10,Strategic,Medium,REP-111
+2025-11-06,AuthShield,APAC-South,Partner,130,469822.31,15,Mid-Market,Small,REP-438
+2025-05-02,APIBridge,US-West,Reseller,130,112358.74,25,Strategic,Mega,REP-554
+2025-10-15,AuthShield,US-East,Direct,23,83871.78,15,Enterprise,Small,REP-513
+2025-07-02,AuthShield,APAC-South,Online,143,395829.58,0,Enterprise,Medium,REP-945
+2025-01-27,AuthShield,US-West,Direct,58,220773.18,10,Strategic,Large,REP-877
+2025-11-08,DataSync Enterprise,US-East,Partner,1,1304.79,25,Enterprise,Large,REP-604
+2025-03-27,PipelineBuilder,EU-Central,Partner,184,582657.08,15,SMB,Large,REP-223
+2025-07-07,LogVault,US-East,OEM,118,463145.97,5,Enterprise,Small,REP-226
+2025-08-15,Widget Pro,Canada,Direct,169,401153.95,20,Mid-Market,Mega,REP-666
+2025-07-27,CloudGuard,US-West,Reseller,150,292861.59,20,Mid-Market,Medium,REP-773
+2025-10-20,StreamKit,LATAM,Online,83,179574.1,15,Strategic,Medium,REP-401
+2025-08-26,QueryEngine,EU-Central,Partner,35,20551.75,20,Enterprise,Large,REP-314
+2025-10-23,QueryEngine,Canada,Online,75,193990.83,25,Mid-Market,Medium,REP-827
+2025-02-25,LogVault,US-East,OEM,91,206263.3,20,Strategic,Large,REP-209
+2025-01-13,CloudGuard,APAC-East,Online,38,11881.53,0,Mid-Market,Large,REP-249
+2025-01-23,AuthShield,US-West,OEM,76,64436.11,20,SMB,Large,REP-988
+2025-11-24,QueryEngine,APAC-East,Direct,144,467744.26,25,Strategic,Medium,REP-490
+2025-07-14,StreamKit,EU-Central,OEM,176,224947.32,20,SMB,Small,REP-989
+2025-08-27,APIBridge,APAC-East,Reseller,58,198440.8,25,Enterprise,Medium,REP-281
+2025-11-03,Widget Pro,LATAM,Online,48,173313.09,25,SMB,Mega,REP-669
+2025-05-05,AuthShield,EU-West,Direct,42,111159.63,10,SMB,Large,REP-257
+2025-06-20,PipelineBuilder,Canada,Online,14,40736.03,25,Enterprise,Mega,REP-174
+2025-12-11,LogVault,Canada,OEM,135,146052.64,5,SMB,Medium,REP-513
+2025-02-12,MetricsDash,APAC-East,Partner,57,189075.29,25,Enterprise,Large,REP-870
+2025-10-17,MetricsDash,MEA,Partner,122,455974.13,25,SMB,Small,REP-757
+2025-10-20,DataSync Enterprise,LATAM,Online,63,226636.48,25,Enterprise,Mega,REP-653
+2025-12-10,Widget Pro,APAC-East,Partner,7,28735.01,10,Strategic,Mega,REP-428
+2025-09-03,APIBridge,EU-Central,Reseller,25,17572.09,20,SMB,Small,REP-955
+2025-02-07,CloudGuard,US-East,Reseller,138,429763.66,25,Strategic,Small,REP-834
+2025-06-02,PipelineBuilder,EU-Central,Online,23,9014.82,5,Enterprise,Small,REP-517
+2025-07-15,DataSync Enterprise,Canada,Direct,162,299184.18,10,SMB,Mega,REP-756
+2025-12-20,MetricsDash,Canada,Direct,17,51571.27,20,SMB,Small,REP-396
+2025-11-10,Widget Pro,MEA,Partner,156,63409.43,15,Strategic,Mega,REP-646
+2025-04-05,StreamKit,APAC-South,Direct,192,304959.47,20,Enterprise,Medium,REP-666
+2025-09-05,StreamKit,EU-Central,Online,32,6573.49,20,Strategic,Small,REP-316
+2025-07-21,APIBridge,US-West,Partner,132,94696.16,5,Mid-Market,Large,REP-787
+2025-10-28,StreamKit,US-West,Online,14,47760.94,20,Strategic,Small,REP-200
+2025-04-24,APIBridge,US-West,Online,149,330099.56,10,Enterprise,Medium,REP-734
+2025-02-07,PipelineBuilder,ANZ,Online,82,181179.97,10,Enterprise,Medium,REP-927
+2025-06-14,StreamKit,APAC-South,Partner,44,3089.76,5,Mid-Market,Mega,REP-795
+2025-12-11,QueryEngine,US-West,Partner,123,259159.71,10,Enterprise,Mega,REP-761
+2025-10-03,DataSync Enterprise,US-West,Direct,72,294163.27,5,Mid-Market,Large,REP-969
+2025-09-21,Widget Pro,Canada,Online,8,26064.51,20,Strategic,Medium,REP-656
+2025-09-16,PipelineBuilder,APAC-East,Partner,168,587748.62,10,Strategic,Medium,REP-575
+2025-09-17,PipelineBuilder,EU-West,OEM,24,38670.46,20,SMB,Medium,REP-243
+2025-08-06,MetricsDash,US-East,Partner,46,105007.64,20,Mid-Market,Mega,REP-879
+2025-08-08,QueryEngine,APAC-South,Reseller,17,21940.87,5,SMB,Medium,REP-580
+2025-08-02,StreamKit,ANZ,OEM,11,48548.8,10,SMB,Large,REP-683
+2025-03-13,LogVault,EU-Central,OEM,168,258540.8,20,SMB,Large,REP-515
+2025-06-27,AuthShield,EU-West,Partner,89,186096.33,15,SMB,Medium,REP-178
+2025-09-21,PipelineBuilder,US-West,Partner,72,75035.46,5,Mid-Market,Large,REP-524
+2025-06-24,PipelineBuilder,EU-West,Reseller,30,62054.44,15,Strategic,Medium,REP-122
+2025-04-02,PipelineBuilder,EU-West,Direct,33,90562.57,5,Mid-Market,Small,REP-270
+2025-05-06,DataSync Enterprise,EU-Central,Reseller,133,510004.97,20,SMB,Large,REP-721
+2025-08-28,PipelineBuilder,Canada,Online,124,94259.81,15,Mid-Market,Medium,REP-271
+2025-12-22,LogVault,LATAM,Partner,88,324941.21,20,SMB,Medium,REP-211
+2025-01-07,PipelineBuilder,US-West,Partner,134,461493.74,20,Strategic,Medium,REP-587
+2025-10-20,AuthShield,EU-West,OEM,10,35159.0,20,SMB,Small,REP-652
+2025-01-25,Widget Pro,Canada,Reseller,174,454306.63,20,Strategic,Large,REP-334
+2025-08-26,CloudGuard,APAC-East,Reseller,197,305290.22,20,SMB,Mega,REP-884
+2025-04-28,APIBridge,US-East,Direct,22,25558.19,20,Strategic,Large,REP-691
+2025-09-04,LogVault,APAC-South,Direct,134,8603.86,25,Mid-Market,Large,REP-258
+2025-07-21,PipelineBuilder,APAC-East,Reseller,150,156657.84,20,Strategic,Large,REP-873
+2025-04-14,QueryEngine,Canada,Reseller,142,474321.15,15,Mid-Market,Large,REP-359
+2025-05-19,APIBridge,MEA,Partner,89,293693.17,15,Mid-Market,Small,REP-202
+2025-04-17,LogVault,US-East,Direct,103,324746.77,20,SMB,Medium,REP-943
+2025-03-16,MetricsDash,US-West,OEM,154,339588.22,0,Enterprise,Medium,REP-138
+2025-12-13,CloudGuard,MEA,Reseller,103,254544.29,20,Enterprise,Small,REP-110
+2025-04-28,Widget Pro,ANZ,OEM,169,629660.8,20,Enterprise,Medium,REP-628
+2025-12-08,Widget Pro,EU-West,Direct,158,140452.57,0,Enterprise,Medium,REP-382
+2025-07-12,DataSync Enterprise,US-West,OEM,172,276019.88,20,Mid-Market,Small,REP-391
+2025-12-27,APIBridge,ANZ,Partner,144,593476.56,10,Enterprise,Large,REP-565
+2025-07-19,QueryEngine,APAC-East,Online,2,2282.22,15,SMB,Small,REP-219
+2025-09-09,LogVault,ANZ,Reseller,138,449888.76,20,Enterprise,Mega,REP-888
+2025-04-25,AuthShield,US-West,Online,87,355561.34,15,Strategic,Small,REP-169
+2025-07-21,MetricsDash,Canada,OEM,57,184148.95,5,Enterprise,Mega,REP-109
+2025-12-27,DataSync Enterprise,Canada,Partner,68,86963.51,0,Strategic,Large,REP-587
+2025-06-12,AuthShield,EU-Central,Partner,56,225634.02,10,Mid-Market,Medium,REP-853
+2025-04-28,CloudGuard,US-West,Direct,68,69351.6,5,Mid-Market,Large,REP-180
+2025-11-22,MetricsDash,ANZ,Online,127,313785.86,20,SMB,Mega,REP-604
+2025-10-28,APIBridge,ANZ,Partner,71,140834.83,20,Enterprise,Mega,REP-155
+2025-09-26,LogVault,EU-West,Reseller,109,210822.08,20,SMB,Large,REP-223
+2025-12-17,LogVault,ANZ,Direct,118,190271.9,0,SMB,Medium,REP-433
+2025-06-20,AuthShield,ANZ,Online,67,58877.2,10,Mid-Market,Large,REP-474
+2025-03-16,LogVault,APAC-East,Reseller,109,89282.1,25,Enterprise,Large,REP-284
+2025-10-05,QueryEngine,LATAM,Reseller,148,509972.33,0,Enterprise,Medium,REP-300
+2025-03-26,AuthShield,EU-West,OEM,190,150149.95,0,Mid-Market,Mega,REP-646
+2025-12-11,DataSync Enterprise,EU-West,Direct,125,153516.92,20,SMB,Mega,REP-320
+2025-05-16,MetricsDash,APAC-South,OEM,162,63993.36,25,Enterprise,Large,REP-670
+2025-05-12,StreamKit,APAC-South,Online,6,11276.37,10,Mid-Market,Medium,REP-789
